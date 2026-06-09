@@ -12,6 +12,7 @@ import complaintRoutes from "./routes/complaintRoutes.js";
 import healthRoutes from "./routes/healthRoutes.js";
 import officerRoutes from "./routes/officerRoutes.js";
 import { notFound, errorHandler } from "./middleware/errorMiddleware.js";
+import { seedAdminFromEnv } from "./utils/seedAdmin.js";
 
 dotenv.config();
 
@@ -99,6 +100,7 @@ app.use(errorHandler);
 const startServer = async () => {
   try {
     await connectDB();
+    await seedAdminFromEnv();
 
     app.listen(PORT, () => {
       console.log(`Server running on port ${PORT}`);

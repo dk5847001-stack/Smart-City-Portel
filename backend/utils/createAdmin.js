@@ -1,39 +1,13 @@
 import dotenv from "dotenv";
 import connectDB from "../config/db.js";
-import User from "../models/User.js";
+import { seedAdminFromEnv } from "./seedAdmin.js";
 
 dotenv.config();
 
 const createAdmin = async () => {
   try {
     await connectDB();
-
-    const adminData = {
-      name: process.env.ADMIN_NAME || "Smart City Admin",
-      email: process.env.ADMIN_EMAIL || "admin@example.com",
-      mobile: process.env.ADMIN_MOBILE || "9876543210",
-      password: process.env.ADMIN_PASSWORD || "Admin@12345",
-      role: "admin",
-      department: "",
-      isBlocked: false
-    };
-
-    const existingAdmin = await User.findOne({ email: adminData.email }).select("+password");
-
-    if (existingAdmin) {
-      existingAdmin.name = adminData.name;
-      existingAdmin.mobile = adminData.mobile;
-      existingAdmin.password = adminData.password;
-      existingAdmin.role = "admin";
-      existingAdmin.department = "";
-      existingAdmin.isBlocked = false;
-      await existingAdmin.save();
-      console.log(`Admin updated: ${adminData.email}`);
-      process.exit(0);
-    }
-
-    await User.create(adminData);
-    console.log(`Admin created: ${adminData.email}`);
+    await seedAdminFromEnv({ throwOnMissing: true });
     process.exit(0);
   } catch (error) {
     console.error(error.message);

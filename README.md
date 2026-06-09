@@ -207,13 +207,22 @@ Common mistakes:
 
 ### 4. Create Admin Account
 
-Open the backend service shell on Render and run:
+On Render free plan, Shell is not available. The backend automatically creates or updates the admin account on startup when these backend environment variables are present:
+
+```env
+ADMIN_NAME=Smart City Admin
+ADMIN_EMAIL=admin@example.com
+ADMIN_MOBILE=9876543210
+ADMIN_PASSWORD=Admin@12345
+```
+
+After adding or changing these variables, redeploy the backend. Then login at `/login` using `ADMIN_EMAIL` and `ADMIN_PASSWORD`.
+
+If you have paid Shell access, you can also run:
 
 ```bash
 npm run seed:admin
 ```
-
-Then login with `ADMIN_EMAIL` and `ADMIN_PASSWORD`.
 
 ### 5. Photo Uploads on Render
 
