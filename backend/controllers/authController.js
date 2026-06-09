@@ -24,7 +24,10 @@ const buildAuthResponse = (user) => {
 
 export const registerUser = async (req, res, next) => {
   try {
-    const { name, email, mobile, password } = req.body;
+    const name = req.body.name?.trim();
+    const email = req.body.email?.trim().toLowerCase();
+    const mobile = req.body.mobile?.trim();
+    const password = req.body.password?.trim();
 
     const userExists = await User.findOne({
       $or: [{ email }, { mobile }]
@@ -56,7 +59,8 @@ export const registerUser = async (req, res, next) => {
 
 export const loginUser = async (req, res, next) => {
   try {
-    const { email, password } = req.body;
+    const email = req.body.email?.trim().toLowerCase();
+    const password = req.body.password?.trim();
 
     if (!email || !password) {
       res.status(400);

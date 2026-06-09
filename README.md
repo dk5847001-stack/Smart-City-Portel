@@ -187,6 +187,24 @@ FRONTEND_URL=https://your-frontend-service.onrender.com
 
 Redeploy the backend after changing this variable.
 
+If registration or login fails after deployment, check these two values first:
+
+```env
+# Backend service environment
+FRONTEND_URL=https://your-frontend-service.onrender.com
+
+# Frontend static site environment
+VITE_API_URL=https://your-backend-service.onrender.com/api
+```
+
+Common mistakes:
+
+- Do not put `/api` at the end of `FRONTEND_URL`.
+- Do put `/api` at the end of `VITE_API_URL`.
+- After changing frontend environment variables, redeploy the frontend.
+- After changing backend environment variables, redeploy the backend.
+- Backend health should open at `https://your-backend-service.onrender.com/api/health`.
+
 ### 4. Create Admin Account
 
 Open the backend service shell on Render and run:

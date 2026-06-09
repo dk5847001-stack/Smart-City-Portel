@@ -1,6 +1,7 @@
 import dotenv from "dotenv";
 import express from "express";
 import cors from "cors";
+import fs from "fs";
 import helmet from "helmet";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -18,6 +19,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+const frontendDistPath = path.resolve(__dirname, "../frontend/dist");
 
 const parseOrigins = (value = "") => {
   return value
@@ -29,15 +31,28 @@ const parseOrigins = (value = "") => {
 const allowedOrigins = [
   ...parseOrigins(process.env.FRONTEND_URL),
   ...parseOrigins(process.env.CLIENT_URL),
+  ...parseOrigins(process.env.RENDER_EXTERNAL_URL),
   "http://localhost:5173",
   "http://localhost:5174"
 ].filter(Boolean);
+
+const isAllowedOrigin = (origin) => {
+  if (!origin) return true;
+  if (allowedOrigins.includes(origin)) return true;
+
+  try {
+    const { hostname, protocol } = new URL(origin);
+    return protocol === "https:" && hostname.endsWith(".onrender.com");
+  } catch (_error) {
+    return false;
+  }
+};
 
 app.use(helmet());
 app.use(
   cors({
     origin(origin, callback) {
-      if (!origin || allowedOrigins.includes(origin)) {
+      if (isAllowedOrigin(origin)) {
         callback(null, true);
         return;
       }
@@ -66,6 +81,17 @@ app.use("/api/auth", authRoutes);
 app.use("/api/complaints", complaintRoutes);
 app.use("/api/health", healthRoutes);
 app.use("/api/officer", officerRoutes);
+
+if (fs.existsSync(frontendDistPath)) {
+  app.use(express.static(frontendDistPath));
+  app.get("*", (req, res, next) => {
+    if (req.path.startsWith("/api")) {
+      return next();
+    }
+
+    res.sendFile(path.join(frontendDistPath, "index.html"));
+  });
+}
 
 app.use(notFound);
 app.use(errorHandler);
