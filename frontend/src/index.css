@@ -1170,3 +1170,11 @@ legend {
   background-color: #e2e8f0;
   min-height: 0.75rem;
 }
+
+
+/* mini-upgrade-69: readable technical tokens */
+code,
+kbd {
+  border-radius: 4px;
+  overflow-wrap: anywhere;
+}
