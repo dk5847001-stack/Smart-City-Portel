@@ -1054,3 +1054,9 @@ legend {
 .chart-panel .recharts-responsive-container {
   min-width: 0;
 }
+
+
+/* mini-upgrade-53: wrapping admin header actions */
+.admin-heading > :last-child {
+  flex-shrink: 0;
+}
