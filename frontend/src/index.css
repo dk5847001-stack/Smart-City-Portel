@@ -1060,3 +1060,10 @@ legend {
 .admin-heading > :last-child {
   flex-shrink: 0;
 }
+
+
+/* mini-upgrade-54: clear filter controls */
+.filter-panel .form-label {
+  font-size: 0.875rem;
+  margin-bottom: 0.35rem;
+}
