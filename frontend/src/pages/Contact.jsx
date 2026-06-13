@@ -11,9 +11,9 @@ const Contact = () => {
         </div>
         <div className="row g-4">
           {[
-            [MapPin, "Office", "Smart City Civic Center, Indore"],
+            [MapPin, "Office", "Sandip University Madhubani, Bihar"],
             [Phone, "Helpline", "+91 62005 76221"],
-            [Mail, "Email", "support@smartcityportal.local"]
+            [Mail, "Email", "nishant620057@gmail.com"]
           ].map(([Icon, title, text]) => (
             <div className="col-md-4" key={title}>
               <div className="public-card h-100">
