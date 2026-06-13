@@ -1288,3 +1288,13 @@ hr {
     max-width: 1440px;
   }
 }
+
+
+/* mini-upgrade-79: short landscape hero */
+@media (max-height: 560px) and (orientation: landscape) {
+  .public-hero,
+  .hero-section {
+    min-height: auto;
+    padding-block: 2.5rem;
+  }
+}
