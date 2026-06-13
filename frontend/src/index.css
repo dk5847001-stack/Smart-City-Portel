@@ -1185,3 +1185,26 @@ hr {
   border-color: #cbd5e1;
   opacity: 0.7;
 }
+
+
+/* mini-upgrade-71: printable complaint details */
+@media print {
+  .navbar,
+  .site-footer,
+  .btn,
+  form {
+    display: none !important;
+  }
+
+  body {
+    background: #ffffff;
+  }
+
+  .auth-panel,
+  .profile-panel,
+  .tracking-result,
+  .complaint-card {
+    border: 1px solid #94a3b8;
+    box-shadow: none;
+  }
+}
