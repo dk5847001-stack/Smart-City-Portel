@@ -797,3 +797,12 @@ label {
 .hero-metrics {
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
 }
+
+
+/* mini-upgrade-20: card keyboard focus */
+.public-card:focus-within,
+.step-card:focus-within,
+.complaint-card:focus-within {
+  border-color: #93c5fd;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
