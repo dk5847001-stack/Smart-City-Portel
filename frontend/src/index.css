@@ -1234,3 +1234,16 @@ hr {
     animation-duration: 1.5s;
   }
 }
+
+
+/* mini-upgrade-74: increased contrast preference */
+@media (prefers-contrast: more) {
+  .public-card,
+  .step-card,
+  .complaint-card,
+  .detail-box,
+  .form-control,
+  .form-select {
+    border-color: #475569;
+  }
+}
