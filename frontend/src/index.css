@@ -1006,3 +1006,18 @@ legend {
   box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.25);
   outline: 0;
 }
+
+
+/* mini-upgrade-47: compact mobile timeline */
+@media (max-width: 575.98px) {
+  .timeline-list {
+    margin-left: 0.45rem;
+    padding-left: 1rem;
+  }
+
+  .timeline-icon {
+    height: 30px;
+    left: -1.95rem;
+    width: 30px;
+  }
+}
