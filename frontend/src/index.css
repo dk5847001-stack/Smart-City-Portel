@@ -1129,3 +1129,10 @@ legend {
   overflow-x: auto;
   scrollbar-width: thin;
 }
+
+
+/* mini-upgrade-63: viewport-safe dropdowns */
+.dropdown-menu {
+  max-width: calc(100vw - 2rem);
+  overflow-wrap: anywhere;
+}
