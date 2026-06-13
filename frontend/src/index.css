@@ -695,3 +695,10 @@ textarea {
   background: #bfdbfe;
   color: #0f172a;
 }
+
+
+/* mini-upgrade-07: subtle application scrollbars */
+html {
+  scrollbar-color: #94a3b8 #e2e8f0;
+  scrollbar-width: thin;
+}
