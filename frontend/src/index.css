@@ -1121,3 +1121,11 @@ legend {
   flex-wrap: wrap;
   row-gap: 0.35rem;
 }
+
+
+/* mini-upgrade-62: compact navigation tabs */
+.nav-tabs {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
