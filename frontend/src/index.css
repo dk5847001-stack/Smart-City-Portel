@@ -1156,3 +1156,10 @@ legend {
 .offcanvas {
   max-width: min(90vw, 420px);
 }
+
+
+/* mini-upgrade-67: list interaction state */
+.list-group-item-action:focus-visible {
+  background: #eff6ff;
+  color: #1e3a8a;
+}
