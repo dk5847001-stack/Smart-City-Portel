@@ -1136,3 +1136,10 @@ legend {
   max-width: calc(100vw - 2rem);
   overflow-wrap: anywhere;
 }
+
+
+/* mini-upgrade-64: readable tooltips */
+.tooltip-inner {
+  line-height: 1.4;
+  max-width: min(280px, calc(100vw - 2rem));
+}
