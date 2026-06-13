@@ -1114,3 +1114,10 @@ legend {
   min-height: 44px;
   min-width: 44px;
 }
+
+
+/* mini-upgrade-61: resilient breadcrumbs */
+.breadcrumb {
+  flex-wrap: wrap;
+  row-gap: 0.35rem;
+}
