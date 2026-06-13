@@ -1271,3 +1271,12 @@ hr {
     margin-bottom: 1.5rem;
   }
 }
+
+
+/* mini-upgrade-77: tablet content density */
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .public-card,
+  .step-card {
+    padding: 1.25rem;
+  }
+}
