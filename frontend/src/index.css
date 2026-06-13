@@ -943,3 +943,11 @@ legend {
   background: #eff6ff;
   box-shadow: inset 4px 0 #2563eb;
 }
+
+
+/* mini-upgrade-38: sticky admin table header */
+.admin-table-scroll .table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}

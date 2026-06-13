@@ -12,7 +12,7 @@ const Contact = () => {
         <div className="row g-4">
           {[
             [MapPin, "Office", "Smart City Civic Center, Indore"],
-            [Phone, "Helpline", "+91 98765 43210"],
+            [Phone, "Helpline", "+91 62005 76221"],
             [Mail, "Email", "support@smartcityportal.local"]
           ].map(([Icon, title, text]) => (
             <div className="col-md-4" key={title}>
