@@ -832,3 +832,10 @@ label {
   flex-direction: column;
   justify-content: center;
 }
+
+
+/* mini-upgrade-24: resilient CTA controls */
+.cta-panel .btn {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
