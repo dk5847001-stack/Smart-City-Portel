@@ -873,3 +873,10 @@ label {
 .form-select:invalid {
   border-color: #dc3545;
 }
+
+
+/* mini-upgrade-29: readable placeholders */
+.form-control::placeholder {
+  color: #64748b;
+  opacity: 1;
+}
