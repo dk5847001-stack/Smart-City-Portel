@@ -951,3 +951,11 @@ legend {
   top: 0;
   z-index: 2;
 }
+
+
+/* mini-upgrade-39: touch-friendly table scrolling */
+.table-responsive,
+.admin-table-scroll {
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-inline: contain;
+}
