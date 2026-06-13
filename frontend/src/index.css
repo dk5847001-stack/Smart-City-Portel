@@ -688,3 +688,10 @@ textarea {
 .skip-link:focus {
   top: 0;
 }
+
+
+/* mini-upgrade-06: readable text selection */
+::selection {
+  background: #bfdbfe;
+  color: #0f172a;
+}
