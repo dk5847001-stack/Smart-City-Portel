@@ -992,3 +992,10 @@ legend {
 .remark-box p {
   white-space: pre-wrap;
 }
+
+
+/* mini-upgrade-45: stable proof image area */
+.complaint-image-wrap img {
+  aspect-ratio: 16 / 10;
+  background: #f1f5f9;
+}
