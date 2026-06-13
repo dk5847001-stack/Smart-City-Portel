@@ -757,3 +757,14 @@ label {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+
+/* mini-upgrade-15: stronger compact hero overlay */
+@media (max-width: 575.98px) {
+  .public-hero,
+  .hero-section {
+    background-image:
+      linear-gradient(110deg, rgba(8, 23, 52, 0.97), rgba(15, 82, 120, 0.86)),
+      url("https://images.unsplash.com/photo-1480714378408-67cf0d13bc1f?auto=format&fit=crop&w=900&q=75");
+  }
+}
