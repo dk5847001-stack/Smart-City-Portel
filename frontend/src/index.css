@@ -1280,3 +1280,11 @@ hr {
     padding: 1.25rem;
   }
 }
+
+
+/* mini-upgrade-78: readable wide-screen layout */
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1440px;
+  }
+}
