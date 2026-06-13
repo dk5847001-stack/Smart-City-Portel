@@ -979,3 +979,10 @@ legend {
 .detail-box:hover {
   border-color: #bfdbfe;
 }
+
+
+/* mini-upgrade-43: resilient tracking identifiers */
+.tracking-box strong,
+.tracking-result {
+  overflow-wrap: anywhere;
+}
