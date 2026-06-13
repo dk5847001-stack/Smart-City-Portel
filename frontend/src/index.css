@@ -1048,3 +1048,9 @@ legend {
 .admin-stat-card:focus-within {
   border-color: #93c5fd;
 }
+
+
+/* mini-upgrade-52: resilient chart canvas */
+.chart-panel .recharts-responsive-container {
+  min-width: 0;
+}
