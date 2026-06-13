@@ -921,3 +921,10 @@ legend {
   border-left-width: 4px;
   box-shadow: 0 8px 20px rgba(15, 23, 42, 0.04);
 }
+
+
+/* mini-upgrade-35: usable alert dismissal */
+.alert .btn-close {
+  min-height: 44px;
+  min-width: 44px;
+}
