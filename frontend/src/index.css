@@ -816,3 +816,11 @@ label {
     transform: none;
   }
 }
+
+
+/* mini-upgrade-22: category interaction state */
+.category-pill:hover,
+.category-pill:focus-within {
+  background: #eff6ff;
+  border-color: #93c5fd;
+}
