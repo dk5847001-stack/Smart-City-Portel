@@ -887,3 +887,12 @@ textarea.form-control {
   min-height: 120px;
   resize: vertical;
 }
+
+
+/* mini-upgrade-31: distinct disabled state */
+.btn:disabled,
+.form-control:disabled,
+.form-select:disabled {
+  cursor: not-allowed;
+  opacity: 0.65;
+}
