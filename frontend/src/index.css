@@ -1081,3 +1081,9 @@ legend {
   padding: clamp(2rem, 8vw, 5rem) 1rem;
   text-align: center;
 }
+
+
+/* mini-upgrade-57: stable loading region */
+[aria-busy="true"] {
+  cursor: progress;
+}
