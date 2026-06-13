@@ -914,3 +914,10 @@ legend {
   color: #1e293b;
   font-weight: 700;
 }
+
+
+/* mini-upgrade-34: clearer alerts */
+.alert {
+  border-left-width: 4px;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.04);
+}
