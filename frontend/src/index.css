@@ -725,3 +725,11 @@ th,
 label {
   overflow-wrap: anywhere;
 }
+
+
+/* mini-upgrade-11: navbar brand keyboard state */
+.navbar-brand:focus-visible {
+  border-radius: 6px;
+  box-shadow: 0 0 0 3px rgba(147, 197, 253, 0.5);
+  outline: 0;
+}
