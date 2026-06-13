@@ -708,3 +708,11 @@ html {
 [id] {
   scroll-margin-top: 5.5rem;
 }
+
+
+/* mini-upgrade-09: balanced headings */
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
