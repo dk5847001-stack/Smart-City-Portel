@@ -986,3 +986,9 @@ legend {
 .tracking-result {
   overflow-wrap: anywhere;
 }
+
+
+/* mini-upgrade-44: readable multiline remarks */
+.remark-box p {
+  white-space: pre-wrap;
+}
