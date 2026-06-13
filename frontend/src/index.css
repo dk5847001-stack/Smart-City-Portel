@@ -1257,3 +1257,17 @@ hr {
     min-height: 44px;
   }
 }
+
+
+/* mini-upgrade-76: phone portrait spacing */
+@media (max-width: 575.98px) {
+  .auth-panel,
+  .profile-panel,
+  .dashboard-header {
+    border-radius: 6px;
+  }
+
+  .section-heading {
+    margin-bottom: 1.5rem;
+  }
+}
