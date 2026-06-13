@@ -1027,3 +1027,10 @@ legend {
 .feedback-panel .btn-group {
   flex-wrap: wrap;
 }
+
+
+/* mini-upgrade-49: visible rating control focus */
+.feedback-star:focus-visible {
+  border-radius: 999px;
+  outline-color: #d97706;
+}
