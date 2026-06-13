@@ -716,3 +716,12 @@ h2,
 h3 {
   text-wrap: balance;
 }
+
+
+/* mini-upgrade-10: resilient long text */
+p,
+td,
+th,
+label {
+  overflow-wrap: anywhere;
+}
