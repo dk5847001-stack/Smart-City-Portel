@@ -839,3 +839,11 @@ label {
   flex: 0 0 auto;
   white-space: nowrap;
 }
+
+
+/* mini-upgrade-25: footer keyboard navigation */
+.footer-links a:focus-visible {
+  border-radius: 4px;
+  color: #ffffff;
+  outline-color: #93c5fd;
+}
