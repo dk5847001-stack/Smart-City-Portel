@@ -896,3 +896,10 @@ textarea.form-control {
   cursor: not-allowed;
   opacity: 0.65;
 }
+
+
+/* mini-upgrade-32: consistent autofill appearance */
+input:-webkit-autofill {
+  -webkit-text-fill-color: #111827;
+  transition: background-color 9999s ease-out;
+}
