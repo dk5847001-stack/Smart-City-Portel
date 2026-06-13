@@ -1094,3 +1094,13 @@ legend {
   max-width: calc(100vw - 2rem);
   z-index: 1090;
 }
+
+
+/* mini-upgrade-59: viewport-safe modals */
+.modal-content {
+  max-height: calc(100dvh - 2rem);
+}
+
+.modal-body {
+  overflow-y: auto;
+}
