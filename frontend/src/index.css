@@ -1104,3 +1104,13 @@ legend {
 .modal-body {
   overflow-y: auto;
 }
+
+
+/* mini-upgrade-60: touch-friendly pagination */
+.page-link {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  min-height: 44px;
+  min-width: 44px;
+}
