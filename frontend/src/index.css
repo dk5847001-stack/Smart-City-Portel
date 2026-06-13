@@ -1087,3 +1087,10 @@ legend {
 [aria-busy="true"] {
   cursor: progress;
 }
+
+
+/* mini-upgrade-58: safe toast stacking */
+.toast-container {
+  max-width: calc(100vw - 2rem);
+  z-index: 1090;
+}
