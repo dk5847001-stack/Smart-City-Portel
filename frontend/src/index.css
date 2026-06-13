@@ -1143,3 +1143,10 @@ legend {
   line-height: 1.4;
   max-width: min(280px, calc(100vw - 2rem));
 }
+
+
+/* mini-upgrade-65: clearer accordion state */
+.accordion-button:not(.collapsed) {
+  color: #1e40af;
+  font-weight: 700;
+}
