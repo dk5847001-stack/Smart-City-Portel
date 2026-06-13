@@ -1305,3 +1305,9 @@ body {
   padding-left: env(safe-area-inset-left);
   padding-right: env(safe-area-inset-right);
 }
+
+
+/* mini-upgrade-81: native control color scheme */
+:root {
+  color-scheme: light;
+}
