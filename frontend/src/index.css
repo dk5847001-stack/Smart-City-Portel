@@ -806,3 +806,13 @@ label {
   border-color: #93c5fd;
   box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
 }
+
+
+/* mini-upgrade-21: hover effects only where hover exists */
+@media (hover: none) {
+  .public-card:hover,
+  .step-card:hover,
+  .complaint-card:hover {
+    transform: none;
+  }
+}
