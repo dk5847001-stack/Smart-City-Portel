@@ -1247,3 +1247,13 @@ hr {
     border-color: #475569;
   }
 }
+
+
+/* mini-upgrade-75: minimum touch targets */
+@media (pointer: coarse) {
+  .btn,
+  .nav-link,
+  .form-check-input {
+    min-height: 44px;
+  }
+}
