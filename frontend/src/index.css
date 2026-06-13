@@ -973,3 +973,9 @@ legend {
 .stat-accent {
   letter-spacing: 0.01em;
 }
+
+
+/* mini-upgrade-42: profile detail interaction */
+.detail-box:hover {
+  border-color: #bfdbfe;
+}
