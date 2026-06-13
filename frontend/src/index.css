@@ -866,3 +866,10 @@ label {
   color: #334155;
   font-weight: 650;
 }
+
+
+/* mini-upgrade-28: native validation feedback */
+.form-control:not(:placeholder-shown):invalid,
+.form-select:invalid {
+  border-color: #dc3545;
+}
