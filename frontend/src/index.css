@@ -655,3 +655,12 @@ video,
 canvas {
   max-width: 100%;
 }
+
+
+/* mini-upgrade-03: consistent control typography */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
