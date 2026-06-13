@@ -783,3 +783,11 @@ label {
 .hero-section p {
   max-width: 62ch;
 }
+
+
+/* mini-upgrade-18: flexible hero actions */
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
