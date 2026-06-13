@@ -791,3 +791,9 @@ label {
   flex-wrap: wrap;
   gap: 0.75rem;
 }
+
+
+/* mini-upgrade-19: adaptive hero metrics */
+.hero-metrics {
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+}
