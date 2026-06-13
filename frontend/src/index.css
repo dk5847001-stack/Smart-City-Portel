@@ -966,3 +966,10 @@ legend {
   line-height: 1.2;
   white-space: nowrap;
 }
+
+
+/* mini-upgrade-41: readable badge details */
+.badge,
+.stat-accent {
+  letter-spacing: 0.01em;
+}
