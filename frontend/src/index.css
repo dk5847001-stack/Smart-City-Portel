@@ -1073,3 +1073,11 @@ legend {
 .admin-select {
   max-width: 100%;
 }
+
+
+/* mini-upgrade-56: reusable empty states */
+.empty-state {
+  color: #64748b;
+  padding: clamp(2rem, 8vw, 5rem) 1rem;
+  text-align: center;
+}
