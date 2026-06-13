@@ -880,3 +880,10 @@ label {
   color: #64748b;
   opacity: 1;
 }
+
+
+/* mini-upgrade-30: practical textarea resizing */
+textarea.form-control {
+  min-height: 120px;
+  resize: vertical;
+}
