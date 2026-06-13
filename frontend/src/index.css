@@ -646,3 +646,12 @@ a {
 *::after {
   box-sizing: border-box;
 }
+
+
+/* mini-upgrade-02: responsive media defaults */
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
+}
