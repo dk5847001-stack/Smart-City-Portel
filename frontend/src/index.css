@@ -1021,3 +1021,9 @@ legend {
     width: 30px;
   }
 }
+
+
+/* mini-upgrade-48: flexible feedback actions */
+.feedback-panel .btn-group {
+  flex-wrap: wrap;
+}
