@@ -702,3 +702,9 @@ html {
   scrollbar-color: #94a3b8 #e2e8f0;
   scrollbar-width: thin;
 }
+
+
+/* mini-upgrade-08: sticky-header anchor clearance */
+[id] {
+  scroll-margin-top: 5.5rem;
+}
