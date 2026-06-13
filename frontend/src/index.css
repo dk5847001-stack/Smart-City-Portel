@@ -768,3 +768,11 @@ label {
       url("https://images.unsplash.com/photo-1480714378408-67cf0d13bc1f?auto=format&fit=crop&w=900&q=75");
   }
 }
+
+
+/* mini-upgrade-16: fluid hero typography */
+.public-hero h1,
+.hero-section h1 {
+  font-size: clamp(2rem, 6vw, 4rem);
+  line-height: 1.08;
+}
