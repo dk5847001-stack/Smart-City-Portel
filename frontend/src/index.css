@@ -1298,3 +1298,10 @@ hr {
     padding-block: 2.5rem;
   }
 }
+
+
+/* mini-upgrade-80: safe-area page edges */
+body {
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
