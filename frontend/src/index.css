@@ -903,3 +903,14 @@ input:-webkit-autofill {
   -webkit-text-fill-color: #111827;
   transition: background-color 9999s ease-out;
 }
+
+
+/* mini-upgrade-33: robust grouped fields */
+fieldset {
+  min-width: 0;
+}
+
+legend {
+  color: #1e293b;
+  font-weight: 700;
+}
