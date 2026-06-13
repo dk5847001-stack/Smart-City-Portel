@@ -936,3 +936,10 @@ legend {
   font-weight: 600;
   padding: 0.75rem 1rem;
 }
+
+
+/* mini-upgrade-37: table keyboard context */
+.table tbody tr:focus-within {
+  background: #eff6ff;
+  box-shadow: inset 4px 0 #2563eb;
+}
