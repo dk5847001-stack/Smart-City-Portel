@@ -1034,3 +1034,10 @@ legend {
   border-radius: 999px;
   outline-color: #d97706;
 }
+
+
+/* mini-upgrade-50: equal dashboard card heights */
+.dashboard-card,
+.admin-stat-card {
+  height: 100%;
+}
