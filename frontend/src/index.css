@@ -1150,3 +1150,9 @@ legend {
   color: #1e40af;
   font-weight: 700;
 }
+
+
+/* mini-upgrade-66: viewport-safe offcanvas */
+.offcanvas {
+  max-width: min(90vw, 420px);
+}
