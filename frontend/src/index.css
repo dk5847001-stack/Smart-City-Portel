@@ -824,3 +824,11 @@ label {
   background: #eff6ff;
   border-color: #93c5fd;
 }
+
+
+/* mini-upgrade-23: stable statistic alignment */
+.stats-strip .row > * {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
