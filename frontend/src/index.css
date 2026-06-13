@@ -638,3 +638,11 @@ a {
     flex-direction: column;
   }
 }
+
+
+/* mini-upgrade-01: predictable box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
