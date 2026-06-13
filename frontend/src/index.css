@@ -859,3 +859,10 @@ label {
     gap: 0.75rem 1rem;
   }
 }
+
+
+/* mini-upgrade-27: clear form labels */
+.form-label {
+  color: #334155;
+  font-weight: 650;
+}
