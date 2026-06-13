@@ -1041,3 +1041,10 @@ legend {
 .admin-stat-card {
   height: 100%;
 }
+
+
+/* mini-upgrade-51: dashboard keyboard context */
+.dashboard-card:focus-within,
+.admin-stat-card:focus-within {
+  border-color: #93c5fd;
+}
