@@ -999,3 +999,10 @@ legend {
   aspect-ratio: 16 / 10;
   background: #f1f5f9;
 }
+
+
+/* mini-upgrade-46: proof thumbnail keyboard state */
+.admin-proof-thumb:focus-visible {
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.25);
+  outline: 0;
+}
