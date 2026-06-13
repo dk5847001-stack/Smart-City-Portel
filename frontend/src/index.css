@@ -1208,3 +1208,14 @@ hr {
     box-shadow: none;
   }
 }
+
+
+/* mini-upgrade-72: Windows high contrast support */
+@media (forced-colors: active) {
+  .btn,
+  .badge,
+  .public-card,
+  .detail-box {
+    border: 1px solid ButtonText;
+  }
+}
