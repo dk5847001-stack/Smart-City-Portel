@@ -1483,3 +1483,7 @@ body {
 
 /* mini-upgrade-124: card subtitle contrast */
 .card-subtitle { color: #64748b; }
+
+
+/* mini-upgrade-125: card footer rhythm */
+.card-footer > :last-child { margin-bottom: 0; }
