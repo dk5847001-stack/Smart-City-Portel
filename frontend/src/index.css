@@ -1683,3 +1683,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-174: desktop dense tables */
 @media (min-width: 992px) { .table.table-sm td, .table.table-sm th { padding-block: 0.55rem; } }
+
+
+/* mini-upgrade-175: wide chart breathing room */
+@media (min-width: 1400px) { .recharts-wrapper { margin-inline: auto; } }
