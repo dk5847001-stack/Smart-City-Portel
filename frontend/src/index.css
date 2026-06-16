@@ -1351,3 +1351,7 @@ body {
 
 /* mini-upgrade-91: strong dropdown focus */
 .dropdown-item:focus-visible { outline: 2px solid #2563eb; outline-offset: -2px; }
+
+
+/* mini-upgrade-92: stable navbar toggler */
+.navbar-toggler { min-width: 44px; min-height: 44px; }
