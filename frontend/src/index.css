@@ -1547,3 +1547,7 @@ canvas { max-width: 100%; }
 
 /* mini-upgrade-140: main landmark spacing */
 main { min-width: 0; }
+
+
+/* mini-upgrade-141: section anchor offset */
+section[id] { scroll-margin-top: 88px; }
