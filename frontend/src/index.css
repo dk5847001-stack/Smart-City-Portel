@@ -1647,3 +1647,7 @@ input[type='date'], input[type='time'], input[type='datetime-local'] { min-heigh
 
 /* mini-upgrade-165: color input sizing */
 input[type='color'] { min-width: 44px; min-height: 44px; padding: 0.25rem; }
+
+
+/* mini-upgrade-166: password field readability */
+input[type='password'] { letter-spacing: 0.02em; }
