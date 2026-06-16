@@ -1347,3 +1347,7 @@ body {
 
 /* mini-upgrade-90: clean dropdown spacing */
 .dropdown-menu { padding-block: 0.4rem; }
+
+
+/* mini-upgrade-91: strong dropdown focus */
+.dropdown-item:focus-visible { outline: 2px solid #2563eb; outline-offset: -2px; }
