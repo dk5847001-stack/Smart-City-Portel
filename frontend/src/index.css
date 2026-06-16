@@ -1627,3 +1627,7 @@ summary:focus-visible { outline: 2px solid #2563eb; outline-offset: 3px; }
 
 /* mini-upgrade-160: dialog viewport safety */
 dialog { max-width: min(720px, calc(100vw - 2rem)); }
+
+
+/* mini-upgrade-161: popover viewport safety */
+[popover] { max-width: min(420px, calc(100vw - 2rem)); }
