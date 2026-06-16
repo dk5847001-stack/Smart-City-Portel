@@ -1611,3 +1611,7 @@ label.required::after { content: ' *'; color: #dc2626; }
 
 /* mini-upgrade-156: meter dimensions */
 meter { width: 100%; min-height: 0.75rem; }
+
+
+/* mini-upgrade-157: output token wrapping */
+output { overflow-wrap: anywhere; }
