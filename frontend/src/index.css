@@ -1595,3 +1595,7 @@ a:focus-visible { outline: 2px solid #2563eb; outline-offset: 3px; }
 
 /* mini-upgrade-152: select option contrast */
 select option { color: #0f172a; background: #ffffff; }
+
+
+/* mini-upgrade-153: disabled field cursor */
+.form-control:disabled, .form-select:disabled { cursor: not-allowed; }
