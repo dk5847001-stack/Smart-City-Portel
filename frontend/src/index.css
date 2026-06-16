@@ -1679,3 +1679,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-173: tablet modal margins */
 @media (min-width: 576px) and (max-width: 991.98px) { .modal-dialog { margin-inline: 1.5rem; } }
+
+
+/* mini-upgrade-174: desktop dense tables */
+@media (min-width: 992px) { .table.table-sm td, .table.table-sm th { padding-block: 0.55rem; } }
