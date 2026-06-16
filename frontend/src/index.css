@@ -1363,3 +1363,7 @@ body {
 
 /* mini-upgrade-94: resilient form help text */
 .form-text { overflow-wrap: anywhere; }
+
+
+/* mini-upgrade-95: compact invalid feedback */
+.invalid-feedback { line-height: 1.35; }
