@@ -1459,3 +1459,7 @@ body {
 
 /* mini-upgrade-118: progress label contrast */
 .progress-bar { color: #ffffff; font-weight: 600; }
+
+
+/* mini-upgrade-119: accordion focus */
+.accordion-button:focus-visible { outline: 2px solid #2563eb; outline-offset: -2px; }
