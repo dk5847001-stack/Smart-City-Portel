@@ -1399,3 +1399,7 @@ body {
 
 /* mini-upgrade-103: table action spacing */
 .table .btn + .btn { margin-left: 0.35rem; }
+
+
+/* mini-upgrade-104: caption contrast */
+.table caption { color: #475569; }
