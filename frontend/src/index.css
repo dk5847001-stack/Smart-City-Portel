@@ -1319,3 +1319,7 @@ body {
 
 /* mini-upgrade-83: steadier large buttons */
 .btn-lg { min-height: 46px; }
+
+
+/* mini-upgrade-84: clear button icon rhythm */
+.btn svg { flex-shrink: 0; vertical-align: -0.125em; }
