@@ -1519,3 +1519,7 @@ blockquote { border-left: 4px solid #cbd5e1; padding-left: 1rem; color: #334155;
 
 /* mini-upgrade-133: horizontal rule spacing */
 hr { opacity: 1; border-color: #e2e8f0; }
+
+
+/* mini-upgrade-134: figure caption contrast */
+.figure-caption { color: #64748b; }
