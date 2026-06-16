@@ -1371,3 +1371,7 @@ body {
 
 /* mini-upgrade-96: compact valid feedback */
 .valid-feedback { line-height: 1.35; }
+
+
+/* mini-upgrade-97: file input readability */
+.form-control[type='file'] { min-height: 44px; }
