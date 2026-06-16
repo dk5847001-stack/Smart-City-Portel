@@ -1635,3 +1635,7 @@ dialog { max-width: min(720px, calc(100vw - 2rem)); }
 
 /* mini-upgrade-162: search cancel affordance */
 input[type='search'] { -webkit-appearance: textfield; }
+
+
+/* mini-upgrade-163: number input alignment */
+input[type='number'] { font-variant-numeric: tabular-nums; }
