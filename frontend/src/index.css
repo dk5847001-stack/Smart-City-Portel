@@ -1327,3 +1327,7 @@ body {
 
 /* mini-upgrade-85: balanced icon links */
 .nav-link svg { flex-shrink: 0; vertical-align: -0.125em; }
+
+
+/* mini-upgrade-86: predictable card imagery */
+.card-img-top { aspect-ratio: 16 / 9; object-fit: cover; }
