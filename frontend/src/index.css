@@ -1311,3 +1311,7 @@ body {
 :root {
   color-scheme: light;
 }
+
+
+/* mini-upgrade-82: steadier small buttons */
+.btn-sm { min-height: 34px; }
