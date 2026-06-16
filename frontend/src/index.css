@@ -1531,3 +1531,7 @@ img { background-color: transparent; }
 
 /* mini-upgrade-136: svg overflow safety */
 svg { overflow: visible; }
+
+
+/* mini-upgrade-137: map frame stability */
+iframe { max-width: 100%; border: 0; }
