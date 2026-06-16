@@ -1607,3 +1607,7 @@ select option { color: #0f172a; background: #ffffff; }
 
 /* mini-upgrade-155: required label hint */
 label.required::after { content: ' *'; color: #dc2626; }
+
+
+/* mini-upgrade-156: meter dimensions */
+meter { width: 100%; min-height: 0.75rem; }
