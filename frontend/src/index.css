@@ -1659,3 +1659,7 @@ input[type='tel'] { font-variant-numeric: tabular-nums; }
 
 /* mini-upgrade-168: email field wrapping */
 input[type='email'] { overflow-wrap: anywhere; }
+
+
+/* mini-upgrade-169: url field wrapping */
+input[type='url'] { overflow-wrap: anywhere; }
