@@ -1495,3 +1495,7 @@ body {
 
 /* mini-upgrade-127: description list spacing */
 dt { color: #334155; } dd { margin-bottom: 0.75rem; }
+
+
+/* mini-upgrade-128: code token readability */
+code { color: #0f172a; background: #f1f5f9; border-radius: 4px; padding: 0.1rem 0.25rem; }
