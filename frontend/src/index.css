@@ -1447,3 +1447,7 @@ body {
 
 /* mini-upgrade-115: toast text wrapping */
 .toast { overflow-wrap: anywhere; }
+
+
+/* mini-upgrade-116: toast close target */
+.toast .btn-close { min-width: 32px; min-height: 32px; }
