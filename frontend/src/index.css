@@ -1415,3 +1415,7 @@ body {
 
 /* mini-upgrade-107: breadcrumb separators */
 .breadcrumb-item + .breadcrumb-item::before { color: #64748b; }
+
+
+/* mini-upgrade-108: breadcrumb active contrast */
+.breadcrumb-item.active { color: #475569; }
