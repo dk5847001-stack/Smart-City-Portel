@@ -1359,3 +1359,7 @@ body {
 
 /* mini-upgrade-93: clear navbar toggler focus */
 .navbar-toggler:focus-visible { outline: 2px solid #2563eb; outline-offset: 3px; }
+
+
+/* mini-upgrade-94: resilient form help text */
+.form-text { overflow-wrap: anywhere; }
