@@ -1315,3 +1315,7 @@ body {
 
 /* mini-upgrade-82: steadier small buttons */
 .btn-sm { min-height: 34px; }
+
+
+/* mini-upgrade-83: steadier large buttons */
+.btn-lg { min-height: 46px; }
