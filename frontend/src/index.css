@@ -1511,3 +1511,7 @@ kbd { background: #0f172a; border-radius: 4px; }
 
 /* mini-upgrade-131: mark readability */
 mark { padding-inline: 0.2em; }
+
+
+/* mini-upgrade-132: blockquote clarity */
+blockquote { border-left: 4px solid #cbd5e1; padding-left: 1rem; color: #334155; }
