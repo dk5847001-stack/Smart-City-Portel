@@ -1451,3 +1451,7 @@ body {
 
 /* mini-upgrade-116: toast close target */
 .toast .btn-close { min-width: 32px; min-height: 32px; }
+
+
+/* mini-upgrade-117: spinner alignment */
+.spinner-border, .spinner-grow { vertical-align: -0.125em; }
