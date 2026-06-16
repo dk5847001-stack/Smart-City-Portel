@@ -1367,3 +1367,7 @@ body {
 
 /* mini-upgrade-95: compact invalid feedback */
 .invalid-feedback { line-height: 1.35; }
+
+
+/* mini-upgrade-96: compact valid feedback */
+.valid-feedback { line-height: 1.35; }
