@@ -1471,3 +1471,7 @@ body {
 
 /* mini-upgrade-121: tab focus visibility */
 .nav-tabs .nav-link:focus-visible { outline: 2px solid #2563eb; outline-offset: 2px; }
+
+
+/* mini-upgrade-122: pills focus visibility */
+.nav-pills .nav-link:focus-visible { outline: 2px solid #2563eb; outline-offset: 2px; }
