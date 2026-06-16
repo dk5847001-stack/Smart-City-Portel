@@ -1375,3 +1375,7 @@ body {
 
 /* mini-upgrade-97: file input readability */
 .form-control[type='file'] { min-height: 44px; }
+
+
+/* mini-upgrade-98: range input touch target */
+.form-range { min-height: 32px; }
