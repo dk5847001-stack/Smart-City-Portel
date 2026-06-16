@@ -1343,3 +1343,7 @@ body {
 
 /* mini-upgrade-89: readable modal titles */
 .modal-title { overflow-wrap: anywhere; }
+
+
+/* mini-upgrade-90: clean dropdown spacing */
+.dropdown-menu { padding-block: 0.4rem; }
