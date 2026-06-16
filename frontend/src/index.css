@@ -1555,3 +1555,7 @@ section[id] { scroll-margin-top: 88px; }
 
 /* mini-upgrade-142: article text wrapping */
 article { overflow-wrap: anywhere; }
+
+
+/* mini-upgrade-143: aside text wrapping */
+aside { overflow-wrap: anywhere; }
