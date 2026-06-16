@@ -1643,3 +1643,7 @@ input[type='number'] { font-variant-numeric: tabular-nums; }
 
 /* mini-upgrade-164: date input sizing */
 input[type='date'], input[type='time'], input[type='datetime-local'] { min-height: 44px; }
+
+
+/* mini-upgrade-165: color input sizing */
+input[type='color'] { min-width: 44px; min-height: 44px; padding: 0.25rem; }
