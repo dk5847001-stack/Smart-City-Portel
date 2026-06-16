@@ -1599,3 +1599,7 @@ select option { color: #0f172a; background: #ffffff; }
 
 /* mini-upgrade-153: disabled field cursor */
 .form-control:disabled, .form-select:disabled { cursor: not-allowed; }
+
+
+/* mini-upgrade-154: readonly field contrast */
+.form-control[readonly] { background-color: #f8fafc; }
