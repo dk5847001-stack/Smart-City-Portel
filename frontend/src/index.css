@@ -1515,3 +1515,7 @@ mark { padding-inline: 0.2em; }
 
 /* mini-upgrade-132: blockquote clarity */
 blockquote { border-left: 4px solid #cbd5e1; padding-left: 1rem; color: #334155; }
+
+
+/* mini-upgrade-133: horizontal rule spacing */
+hr { opacity: 1; border-color: #e2e8f0; }
