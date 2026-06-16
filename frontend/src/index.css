@@ -1563,3 +1563,7 @@ aside { overflow-wrap: anywhere; }
 
 /* mini-upgrade-144: footer link target */
 footer a { min-height: 32px; display: inline-flex; align-items: center; }
+
+
+/* mini-upgrade-145: header z-index guard */
+header, .navbar { z-index: 1030; }
