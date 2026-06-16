@@ -1663,3 +1663,7 @@ input[type='email'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-169: url field wrapping */
 input[type='url'] { overflow-wrap: anywhere; }
+
+
+/* mini-upgrade-170: mobile form spacing */
+@media (max-width: 575.98px) { .form-label { margin-bottom: 0.35rem; } }
