@@ -1567,3 +1567,7 @@ footer a { min-height: 32px; display: inline-flex; align-items: center; }
 
 /* mini-upgrade-145: header z-index guard */
 header, .navbar { z-index: 1030; }
+
+
+/* mini-upgrade-146: skip link layer */
+.skip-link { z-index: 1100; }
