@@ -1443,3 +1443,7 @@ body {
 
 /* mini-upgrade-114: alert paragraph rhythm */
 .alert p:last-child { margin-bottom: 0; }
+
+
+/* mini-upgrade-115: toast text wrapping */
+.toast { overflow-wrap: anywhere; }
