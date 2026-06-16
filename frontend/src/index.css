@@ -1539,3 +1539,7 @@ iframe { max-width: 100%; border: 0; }
 
 /* mini-upgrade-138: video fit safety */
 video { max-width: 100%; height: auto; }
+
+
+/* mini-upgrade-139: canvas fit safety */
+canvas { max-width: 100%; }
