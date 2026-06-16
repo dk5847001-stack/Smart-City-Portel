@@ -1507,3 +1507,7 @@ pre { overflow-x: auto; border-radius: 6px; }
 
 /* mini-upgrade-130: kbd contrast */
 kbd { background: #0f172a; border-radius: 4px; }
+
+
+/* mini-upgrade-131: mark readability */
+mark { padding-inline: 0.2em; }
