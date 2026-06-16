@@ -1427,3 +1427,7 @@ body {
 
 /* mini-upgrade-110: pagination disabled contrast */
 .page-item.disabled .page-link { color: #64748b; }
+
+
+/* mini-upgrade-111: badge vertical rhythm */
+.badge { line-height: 1.2; }
