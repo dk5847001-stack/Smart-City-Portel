@@ -1559,3 +1559,7 @@ article { overflow-wrap: anywhere; }
 
 /* mini-upgrade-143: aside text wrapping */
 aside { overflow-wrap: anywhere; }
+
+
+/* mini-upgrade-144: footer link target */
+footer a { min-height: 32px; display: inline-flex; align-items: center; }
