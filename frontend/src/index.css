@@ -1383,3 +1383,7 @@ body {
 
 /* mini-upgrade-99: checkbox alignment */
 .form-check-input { flex-shrink: 0; }
+
+
+/* mini-upgrade-100: checkbox label wrapping */
+.form-check-label { overflow-wrap: anywhere; }
