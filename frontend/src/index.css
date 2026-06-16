@@ -1331,3 +1331,7 @@ body {
 
 /* mini-upgrade-86: predictable card imagery */
 .card-img-top { aspect-ratio: 16 / 9; object-fit: cover; }
+
+
+/* mini-upgrade-87: stable avatar sizing */
+.avatar, .user-avatar { aspect-ratio: 1; object-fit: cover; }
