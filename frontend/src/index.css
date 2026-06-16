@@ -1707,3 +1707,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-180: forced colors link clarity */
 @media (forced-colors: active) { a { text-decoration: underline; } }
+
+
+/* mini-upgrade-181: reduced motion carousel */
+@media (prefers-reduced-motion: reduce) { .carousel-item { transition: none !important; } }
