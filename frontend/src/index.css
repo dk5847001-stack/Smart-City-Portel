@@ -1699,3 +1699,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-178: print table borders */
 @media print { .table td, .table th { border-color: #94a3b8 !important; } }
+
+
+/* mini-upgrade-179: dark preference neutral base */
+@media (prefers-color-scheme: dark) { :root { color-scheme: light; } }
