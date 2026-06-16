@@ -1491,3 +1491,7 @@ body {
 
 /* mini-upgrade-126: card header rhythm */
 .card-header > :last-child { margin-bottom: 0; }
+
+
+/* mini-upgrade-127: description list spacing */
+dt { color: #334155; } dd { margin-bottom: 0.75rem; }
