@@ -1467,3 +1467,7 @@ body {
 
 /* mini-upgrade-120: accordion body wrapping */
 .accordion-body { overflow-wrap: anywhere; }
+
+
+/* mini-upgrade-121: tab focus visibility */
+.nav-tabs .nav-link:focus-visible { outline: 2px solid #2563eb; outline-offset: 2px; }
