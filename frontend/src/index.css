@@ -1711,3 +1711,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-181: reduced motion carousel */
 @media (prefers-reduced-motion: reduce) { .carousel-item { transition: none !important; } }
+
+
+/* mini-upgrade-182: high contrast buttons */
+@media (prefers-contrast: more) { .btn-outline-primary { border-width: 2px; } }
