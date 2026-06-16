@@ -1603,3 +1603,7 @@ select option { color: #0f172a; background: #ffffff; }
 
 /* mini-upgrade-154: readonly field contrast */
 .form-control[readonly] { background-color: #f8fafc; }
+
+
+/* mini-upgrade-155: required label hint */
+label.required::after { content: ' *'; color: #dc2626; }
