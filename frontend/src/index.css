@@ -1339,3 +1339,7 @@ body {
 
 /* mini-upgrade-88: safer modal scrolling */
 .modal-body { overscroll-behavior: contain; }
+
+
+/* mini-upgrade-89: readable modal titles */
+.modal-title { overflow-wrap: anywhere; }
