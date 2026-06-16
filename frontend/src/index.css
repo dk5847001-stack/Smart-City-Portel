@@ -1391,3 +1391,7 @@ body {
 
 /* mini-upgrade-101: radio label wrapping */
 .form-check { min-height: 1.5rem; }
+
+
+/* mini-upgrade-102: table cell wrapping */
+.table td, .table th { overflow-wrap: anywhere; }
