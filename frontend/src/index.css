@@ -1527,3 +1527,7 @@ hr { opacity: 1; border-color: #e2e8f0; }
 
 /* mini-upgrade-135: image loading background */
 img { background-color: transparent; }
+
+
+/* mini-upgrade-136: svg overflow safety */
+svg { overflow: visible; }
