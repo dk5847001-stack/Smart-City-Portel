@@ -1551,3 +1551,7 @@ main { min-width: 0; }
 
 /* mini-upgrade-141: section anchor offset */
 section[id] { scroll-margin-top: 88px; }
+
+
+/* mini-upgrade-142: article text wrapping */
+article { overflow-wrap: anywhere; }
