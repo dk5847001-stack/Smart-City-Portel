@@ -1631,3 +1631,7 @@ dialog { max-width: min(720px, calc(100vw - 2rem)); }
 
 /* mini-upgrade-161: popover viewport safety */
 [popover] { max-width: min(420px, calc(100vw - 2rem)); }
+
+
+/* mini-upgrade-162: search cancel affordance */
+input[type='search'] { -webkit-appearance: textfield; }
