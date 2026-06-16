@@ -1655,3 +1655,7 @@ input[type='password'] { letter-spacing: 0.02em; }
 
 /* mini-upgrade-167: tel field numeric rhythm */
 input[type='tel'] { font-variant-numeric: tabular-nums; }
+
+
+/* mini-upgrade-168: email field wrapping */
+input[type='email'] { overflow-wrap: anywhere; }
