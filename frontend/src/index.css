@@ -1479,3 +1479,7 @@ body {
 
 /* mini-upgrade-123: card title wrapping */
 .card-title { overflow-wrap: anywhere; }
+
+
+/* mini-upgrade-124: card subtitle contrast */
+.card-subtitle { color: #64748b; }
