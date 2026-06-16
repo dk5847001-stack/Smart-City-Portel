@@ -1571,3 +1571,7 @@ header, .navbar { z-index: 1030; }
 
 /* mini-upgrade-146: skip link layer */
 .skip-link { z-index: 1100; }
+
+
+/* mini-upgrade-147: focus ring consistency */
+a:focus-visible { outline: 2px solid #2563eb; outline-offset: 3px; }
