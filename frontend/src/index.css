@@ -1435,3 +1435,7 @@ body {
 
 /* mini-upgrade-112: badge icon spacing */
 .badge svg { margin-right: 0.25rem; vertical-align: -0.125em; }
+
+
+/* mini-upgrade-113: alert link contrast */
+.alert a { font-weight: 600; }
