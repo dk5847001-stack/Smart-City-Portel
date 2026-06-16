@@ -1379,3 +1379,7 @@ body {
 
 /* mini-upgrade-98: range input touch target */
 .form-range { min-height: 32px; }
+
+
+/* mini-upgrade-99: checkbox alignment */
+.form-check-input { flex-shrink: 0; }
