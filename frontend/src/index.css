@@ -1475,3 +1475,7 @@ body {
 
 /* mini-upgrade-122: pills focus visibility */
 .nav-pills .nav-link:focus-visible { outline: 2px solid #2563eb; outline-offset: 2px; }
+
+
+/* mini-upgrade-123: card title wrapping */
+.card-title { overflow-wrap: anywhere; }
