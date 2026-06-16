@@ -1687,3 +1687,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-175: wide chart breathing room */
 @media (min-width: 1400px) { .recharts-wrapper { margin-inline: auto; } }
+
+
+/* mini-upgrade-176: print link clarity */
+@media print { a[href]::after { content: ''; } }
