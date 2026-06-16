@@ -1335,3 +1335,7 @@ body {
 
 /* mini-upgrade-87: stable avatar sizing */
 .avatar, .user-avatar { aspect-ratio: 1; object-fit: cover; }
+
+
+/* mini-upgrade-88: safer modal scrolling */
+.modal-body { overscroll-behavior: contain; }
