@@ -1395,3 +1395,7 @@ body {
 
 /* mini-upgrade-102: table cell wrapping */
 .table td, .table th { overflow-wrap: anywhere; }
+
+
+/* mini-upgrade-103: table action spacing */
+.table .btn + .btn { margin-left: 0.35rem; }
