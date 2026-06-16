@@ -1387,3 +1387,7 @@ body {
 
 /* mini-upgrade-100: checkbox label wrapping */
 .form-check-label { overflow-wrap: anywhere; }
+
+
+/* mini-upgrade-101: radio label wrapping */
+.form-check { min-height: 1.5rem; }
