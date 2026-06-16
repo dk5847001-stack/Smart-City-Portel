@@ -1671,3 +1671,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-171: mobile table font */
 @media (max-width: 575.98px) { .table { font-size: 0.92rem; } }
+
+
+/* mini-upgrade-172: mobile button full width utility */
+@media (max-width: 575.98px) { .btn-mobile-block { width: 100%; } }
