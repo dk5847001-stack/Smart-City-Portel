@@ -1695,3 +1695,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-177: print badge clarity */
 @media print { .badge { border: 1px solid #475569; color: #0f172a !important; } }
+
+
+/* mini-upgrade-178: print table borders */
+@media print { .table td, .table th { border-color: #94a3b8 !important; } }
