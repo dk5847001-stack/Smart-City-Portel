@@ -1503,3 +1503,7 @@ code { color: #0f172a; background: #f1f5f9; border-radius: 4px; padding: 0.1rem 
 
 /* mini-upgrade-129: pre block scrolling */
 pre { overflow-x: auto; border-radius: 6px; }
+
+
+/* mini-upgrade-130: kbd contrast */
+kbd { background: #0f172a; border-radius: 4px; }
