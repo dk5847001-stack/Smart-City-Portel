@@ -1543,3 +1543,7 @@ video { max-width: 100%; height: auto; }
 
 /* mini-upgrade-139: canvas fit safety */
 canvas { max-width: 100%; }
+
+
+/* mini-upgrade-140: main landmark spacing */
+main { min-width: 0; }
