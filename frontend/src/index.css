@@ -1439,3 +1439,7 @@ body {
 
 /* mini-upgrade-113: alert link contrast */
 .alert a { font-weight: 600; }
+
+
+/* mini-upgrade-114: alert paragraph rhythm */
+.alert p:last-child { margin-bottom: 0; }
