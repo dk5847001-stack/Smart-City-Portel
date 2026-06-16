@@ -1639,3 +1639,7 @@ input[type='search'] { -webkit-appearance: textfield; }
 
 /* mini-upgrade-163: number input alignment */
 input[type='number'] { font-variant-numeric: tabular-nums; }
+
+
+/* mini-upgrade-164: date input sizing */
+input[type='date'], input[type='time'], input[type='datetime-local'] { min-height: 44px; }
