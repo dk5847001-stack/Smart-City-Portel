@@ -1675,3 +1675,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-172: mobile button full width utility */
 @media (max-width: 575.98px) { .btn-mobile-block { width: 100%; } }
+
+
+/* mini-upgrade-173: tablet modal margins */
+@media (min-width: 576px) and (max-width: 991.98px) { .modal-dialog { margin-inline: 1.5rem; } }
