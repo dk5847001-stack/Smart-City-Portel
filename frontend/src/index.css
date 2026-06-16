@@ -1523,3 +1523,7 @@ hr { opacity: 1; border-color: #e2e8f0; }
 
 /* mini-upgrade-134: figure caption contrast */
 .figure-caption { color: #64748b; }
+
+
+/* mini-upgrade-135: image loading background */
+img { background-color: transparent; }
