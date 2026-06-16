@@ -1703,3 +1703,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-179: dark preference neutral base */
 @media (prefers-color-scheme: dark) { :root { color-scheme: light; } }
+
+
+/* mini-upgrade-180: forced colors link clarity */
+@media (forced-colors: active) { a { text-decoration: underline; } }
