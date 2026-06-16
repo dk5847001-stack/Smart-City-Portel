@@ -1431,3 +1431,7 @@ body {
 
 /* mini-upgrade-111: badge vertical rhythm */
 .badge { line-height: 1.2; }
+
+
+/* mini-upgrade-112: badge icon spacing */
+.badge svg { margin-right: 0.25rem; vertical-align: -0.125em; }
