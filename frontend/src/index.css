@@ -2051,3 +2051,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-266: progress minimum height */
 .progress { min-height: 0.75rem; }
+
+
+/* mini-upgrade-267: accordion title wrapping */
+.accordion-button { overflow-wrap: anywhere; }
