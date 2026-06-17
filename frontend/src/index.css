@@ -1835,3 +1835,7 @@ dt + dd { margin-top: 0.15rem; }
 
 /* mini-upgrade-212: small text readability */
 small, .small { line-height: 1.45; }
+
+
+/* mini-upgrade-213: strong text weight */
+strong, b { font-weight: 700; }
