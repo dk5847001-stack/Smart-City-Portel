@@ -1927,3 +1927,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-235: filter item sizing */
 .filter-bar > * { min-width: min(220px, 100%); }
+
+
+/* mini-upgrade-236: search field rhythm */
+.search-field { min-width: min(280px, 100%); }
