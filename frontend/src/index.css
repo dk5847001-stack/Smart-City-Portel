@@ -2067,3 +2067,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-270: list group action target */
 .list-group-item-action { min-height: 44px; }
+
+
+/* mini-upgrade-271: avatar no shrink */
+.avatar, .user-avatar { flex-shrink: 0; }
