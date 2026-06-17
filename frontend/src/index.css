@@ -1815,3 +1815,7 @@ ol > li + li { margin-top: 0.35rem; }
 
 /* mini-upgrade-207: unordered list rhythm */
 ul > li + li { margin-top: 0.25rem; }
+
+
+/* mini-upgrade-208: nested list spacing */
+li > ul, li > ol { margin-top: 0.25rem; }
