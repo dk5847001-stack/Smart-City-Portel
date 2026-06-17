@@ -2095,3 +2095,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-277: loading state centering */
 .loading-state { min-height: 220px; display: grid; place-items: center; }
+
+
+/* mini-upgrade-278: error state wrapping */
+.error-state { overflow-wrap: anywhere; }
