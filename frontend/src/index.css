@@ -1803,3 +1803,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-204: lead copy measure */
 .lead { max-width: 68ch; }
+
+
+/* mini-upgrade-205: paragraph measure */
+p { text-wrap: pretty; }
