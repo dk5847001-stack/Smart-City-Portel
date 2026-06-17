@@ -1847,3 +1847,7 @@ a { text-underline-offset: 0.18em; }
 
 /* mini-upgrade-215: hover link clarity */
 a:hover { text-decoration-thickness: 0.08em; }
+
+
+/* mini-upgrade-216: button disabled opacity */
+.btn:disabled, .btn.disabled { opacity: 0.68; }
