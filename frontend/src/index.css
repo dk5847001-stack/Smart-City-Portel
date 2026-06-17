@@ -1843,3 +1843,7 @@ strong, b { font-weight: 700; }
 
 /* mini-upgrade-214: link underline offset */
 a { text-underline-offset: 0.18em; }
+
+
+/* mini-upgrade-215: hover link clarity */
+a:hover { text-decoration-thickness: 0.08em; }
