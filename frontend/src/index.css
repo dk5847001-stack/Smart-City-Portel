@@ -2019,3 +2019,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-258: alert flex gap */
 .alert.d-flex { gap: 0.75rem; }
+
+
+/* mini-upgrade-259: toast header gap */
+.toast-header { gap: 0.5rem; }
