@@ -1931,3 +1931,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-236: search field rhythm */
 .search-field { min-width: min(280px, 100%); }
+
+
+/* mini-upgrade-237: table header stickiness */
+.table-sticky thead th { position: sticky; top: 0; z-index: 2; }
