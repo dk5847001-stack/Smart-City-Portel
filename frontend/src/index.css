@@ -1719,3 +1719,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-183: safer container clipping */
 .container, .container-fluid { min-width: 0; }
+
+
+/* mini-upgrade-184: balanced row overflow */
+.row { min-width: 0; }
