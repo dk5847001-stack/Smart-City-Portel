@@ -1943,3 +1943,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-239: table compact buttons */
 .table .btn-sm { white-space: nowrap; }
+
+
+/* mini-upgrade-240: responsive table border */
+.table-responsive { border-radius: 6px; }
