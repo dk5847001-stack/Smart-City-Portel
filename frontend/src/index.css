@@ -1959,3 +1959,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-243: card body flex */
 .card-body.d-flex { min-height: 0; }
+
+
+/* mini-upgrade-244: card action footer */
+.card-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: auto; }
