@@ -1791,3 +1791,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-201: hero action rhythm */
 .hero-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+
+
+/* mini-upgrade-202: hero text balance */
+.hero-section h1, .hero-title { text-wrap: balance; }
