@@ -1891,3 +1891,7 @@ a:hover { text-decoration-thickness: 0.08em; }
 
 /* mini-upgrade-226: success button contrast */
 .btn-success { color: #ffffff; }
+
+
+/* mini-upgrade-227: input placeholder contrast */
+.form-control::placeholder { color: #64748b; opacity: 1; }
