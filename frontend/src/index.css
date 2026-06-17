@@ -1935,3 +1935,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-237: table header stickiness */
 .table-sticky thead th { position: sticky; top: 0; z-index: 2; }
+
+
+/* mini-upgrade-238: table hover readability */
+.table-hover tbody tr:hover > * { background-color: #f8fafc; }
