@@ -2091,3 +2091,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-276: empty state copy measure */
 .empty-state p { max-width: 56ch; margin-inline: auto; }
+
+
+/* mini-upgrade-277: loading state centering */
+.loading-state { min-height: 220px; display: grid; place-items: center; }
