@@ -1839,3 +1839,7 @@ small, .small { line-height: 1.45; }
 
 /* mini-upgrade-213: strong text weight */
 strong, b { font-weight: 700; }
+
+
+/* mini-upgrade-214: link underline offset */
+a { text-underline-offset: 0.18em; }
