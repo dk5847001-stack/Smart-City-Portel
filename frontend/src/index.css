@@ -2107,3 +2107,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-280: mobile hero actions */
 @media (max-width: 575.98px) { .hero-actions .btn { width: 100%; } }
+
+
+/* mini-upgrade-281: mobile card actions */
+@media (max-width: 575.98px) { .card-actions .btn { flex: 1 1 100%; } }
