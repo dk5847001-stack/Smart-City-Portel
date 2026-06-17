@@ -1991,3 +1991,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-251: navbar collapse gap */
 .navbar-collapse { gap: 0.5rem; }
+
+
+/* mini-upgrade-252: navbar nav gap */
+.navbar-nav { gap: 0.15rem; }
