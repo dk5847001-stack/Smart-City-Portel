@@ -1755,3 +1755,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-192: timeline text wrapping */
 .timeline-item, .timeline-content { overflow-wrap: anywhere; }
+
+
+/* mini-upgrade-193: status chip alignment */
+.status-badge, .priority-badge { display: inline-flex; align-items: center; gap: 0.25rem; }
