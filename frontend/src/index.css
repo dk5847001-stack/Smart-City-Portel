@@ -1947,3 +1947,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-240: responsive table border */
 .table-responsive { border-radius: 6px; }
+
+
+/* mini-upgrade-241: responsive table scroll */
+.table-responsive { scrollbar-gutter: stable; }
