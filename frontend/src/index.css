@@ -1855,3 +1855,7 @@ a:hover { text-decoration-thickness: 0.08em; }
 
 /* mini-upgrade-217: button text wrapping */
 .btn { white-space: normal; }
+
+
+/* mini-upgrade-218: icon button square */
+.btn-icon { width: 40px; height: 40px; padding: 0; display: inline-grid; place-items: center; }
