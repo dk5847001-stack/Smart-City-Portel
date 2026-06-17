@@ -1911,3 +1911,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-231: invalid field focus */
 .form-control.is-invalid:focus, .form-select.is-invalid:focus { box-shadow: 0 0 0 0.2rem rgba(220, 38, 38, 0.2); }
+
+
+/* mini-upgrade-232: valid field focus */
+.form-control.is-valid:focus, .form-select.is-valid:focus { box-shadow: 0 0 0 0.2rem rgba(22, 163, 74, 0.2); }
