@@ -1751,3 +1751,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-191: timeline item anchoring */
 .timeline-item { position: relative; }
+
+
+/* mini-upgrade-192: timeline text wrapping */
+.timeline-item, .timeline-content { overflow-wrap: anywhere; }
