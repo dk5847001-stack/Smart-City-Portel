@@ -1999,3 +1999,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-253: dropdown item wrapping */
 .dropdown-item { white-space: normal; }
+
+
+/* mini-upgrade-254: modal footer wrap */
+.modal-footer { flex-wrap: wrap; gap: 0.5rem; }
