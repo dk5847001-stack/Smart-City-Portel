@@ -1951,3 +1951,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-241: responsive table scroll */
 .table-responsive { scrollbar-gutter: stable; }
+
+
+/* mini-upgrade-242: card grid alignment */
+.card-grid { align-items: stretch; }
