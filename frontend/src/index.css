@@ -1827,3 +1827,7 @@ dt + dd { margin-top: 0.15rem; }
 
 /* mini-upgrade-210: muted text contrast */
 .text-muted { color: #64748b !important; }
+
+
+/* mini-upgrade-211: secondary text contrast */
+.text-secondary { color: #475569 !important; }
