@@ -1919,3 +1919,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-233: form section spacing */
 .form-section + .form-section { margin-top: 1.25rem; }
+
+
+/* mini-upgrade-234: filter bar spacing */
+.filter-bar { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: end; }
