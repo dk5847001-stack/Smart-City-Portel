@@ -2115,3 +2115,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-282: mobile filter fields */
 @media (max-width: 575.98px) { .filter-bar > * { width: 100%; } }
+
+
+/* mini-upgrade-283: print hide controls */
+@media print { .btn, .navbar, .modal, .toast { display: none !important; } }
