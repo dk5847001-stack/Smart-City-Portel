@@ -1895,3 +1895,7 @@ a:hover { text-decoration-thickness: 0.08em; }
 
 /* mini-upgrade-227: input placeholder contrast */
 .form-control::placeholder { color: #64748b; opacity: 1; }
+
+
+/* mini-upgrade-228: textarea resize safety */
+textarea.form-control { resize: vertical; min-height: 112px; }
