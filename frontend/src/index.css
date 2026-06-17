@@ -1867,3 +1867,7 @@ a:hover { text-decoration-thickness: 0.08em; }
 
 /* mini-upgrade-220: large icon button square */
 .btn-icon.btn-lg { width: 46px; height: 46px; }
+
+
+/* mini-upgrade-221: link button alignment */
+.btn-link { display: inline-flex; align-items: center; gap: 0.25rem; }
