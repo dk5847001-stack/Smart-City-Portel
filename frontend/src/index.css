@@ -1767,3 +1767,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-195: admin action wrap */
 .admin-actions, .table-actions { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+
+
+/* mini-upgrade-196: officer action wrap */
+.officer-actions { display: flex; flex-wrap: wrap; gap: 0.35rem; }
