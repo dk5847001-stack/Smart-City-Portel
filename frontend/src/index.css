@@ -1907,3 +1907,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-230: input numeric rhythm */
 .form-control { font-variant-numeric: normal; }
+
+
+/* mini-upgrade-231: invalid field focus */
+.form-control.is-invalid:focus, .form-select.is-invalid:focus { box-shadow: 0 0 0 0.2rem rgba(220, 38, 38, 0.2); }
