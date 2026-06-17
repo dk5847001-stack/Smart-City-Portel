@@ -2111,3 +2111,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-281: mobile card actions */
 @media (max-width: 575.98px) { .card-actions .btn { flex: 1 1 100%; } }
+
+
+/* mini-upgrade-282: mobile filter fields */
+@media (max-width: 575.98px) { .filter-bar > * { width: 100%; } }
