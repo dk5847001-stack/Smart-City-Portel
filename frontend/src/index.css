@@ -1987,3 +1987,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-250: navbar brand wrapping */
 .navbar-brand { white-space: normal; line-height: 1.2; }
+
+
+/* mini-upgrade-251: navbar collapse gap */
+.navbar-collapse { gap: 0.5rem; }
