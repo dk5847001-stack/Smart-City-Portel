@@ -1851,3 +1851,7 @@ a:hover { text-decoration-thickness: 0.08em; }
 
 /* mini-upgrade-216: button disabled opacity */
 .btn:disabled, .btn.disabled { opacity: 0.68; }
+
+
+/* mini-upgrade-217: button text wrapping */
+.btn { white-space: normal; }
