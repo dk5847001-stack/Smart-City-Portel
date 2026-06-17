@@ -1783,3 +1783,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-199: service tile stability */
 .service-card { min-height: 100%; }
+
+
+/* mini-upgrade-200: service icon sizing */
+.service-card svg { flex-shrink: 0; }
