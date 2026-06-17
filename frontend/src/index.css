@@ -1727,3 +1727,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-185: stable column wrapping */
 [class*='col'] { min-width: 0; }
+
+
+/* mini-upgrade-186: clean card action spacing */
+.card .btn-toolbar { gap: 0.35rem; }
