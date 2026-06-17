@@ -1823,3 +1823,7 @@ li > ul, li > ol { margin-top: 0.25rem; }
 
 /* mini-upgrade-209: definition term rhythm */
 dt + dd { margin-top: 0.15rem; }
+
+
+/* mini-upgrade-210: muted text contrast */
+.text-muted { color: #64748b !important; }
