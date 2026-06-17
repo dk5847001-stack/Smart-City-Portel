@@ -2047,3 +2047,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-265: badge numeric rhythm */
 .badge { font-variant-numeric: tabular-nums; }
+
+
+/* mini-upgrade-266: progress minimum height */
+.progress { min-height: 0.75rem; }
