@@ -2075,3 +2075,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-272: uploaded image preview */
 .image-preview img { max-height: 280px; object-fit: contain; }
+
+
+/* mini-upgrade-273: attachment link wrapping */
+.attachment-link { overflow-wrap: anywhere; }
