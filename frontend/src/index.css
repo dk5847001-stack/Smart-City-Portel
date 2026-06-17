@@ -1795,3 +1795,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-202: hero text balance */
 .hero-section h1, .hero-title { text-wrap: balance; }
+
+
+/* mini-upgrade-203: section title balance */
+.section-title, section h2 { text-wrap: balance; }
