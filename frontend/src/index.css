@@ -1979,3 +1979,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-248: chart tooltip wrapping */
 .recharts-tooltip-wrapper { max-width: min(320px, calc(100vw - 2rem)); }
+
+
+/* mini-upgrade-249: chart legend wrapping */
+.recharts-legend-wrapper { overflow-wrap: anywhere; }
