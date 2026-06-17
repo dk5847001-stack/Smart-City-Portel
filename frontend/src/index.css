@@ -1799,3 +1799,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-203: section title balance */
 .section-title, section h2 { text-wrap: balance; }
+
+
+/* mini-upgrade-204: lead copy measure */
+.lead { max-width: 68ch; }
