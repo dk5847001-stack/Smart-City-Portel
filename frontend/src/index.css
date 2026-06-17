@@ -1903,3 +1903,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-229: select min width */
 .form-select { min-width: 0; }
+
+
+/* mini-upgrade-230: input numeric rhythm */
+.form-control { font-variant-numeric: normal; }
