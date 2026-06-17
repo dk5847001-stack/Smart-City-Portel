@@ -2011,3 +2011,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-256: modal close no shrink */
 .modal-header .btn-close { flex-shrink: 0; }
+
+
+/* mini-upgrade-257: alert icon no shrink */
+.alert svg { flex-shrink: 0; }
