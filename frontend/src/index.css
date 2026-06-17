@@ -2039,3 +2039,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-263: breadcrumb wrapping */
 .breadcrumb { row-gap: 0.25rem; }
+
+
+/* mini-upgrade-264: badge whitespace */
+.badge { white-space: normal; text-align: inherit; }
