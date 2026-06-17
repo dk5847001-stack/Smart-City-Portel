@@ -1743,3 +1743,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-189: complaint id readability */
 .complaint-id, [data-complaint-id] { font-variant-numeric: tabular-nums; letter-spacing: 0; }
+
+
+/* mini-upgrade-190: tracking code wrapping */
+.tracking-code, [data-tracking-code] { overflow-wrap: anywhere; }
