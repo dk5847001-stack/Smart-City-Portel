@@ -1787,3 +1787,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-200: service icon sizing */
 .service-card svg { flex-shrink: 0; }
+
+
+/* mini-upgrade-201: hero action rhythm */
+.hero-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; }
