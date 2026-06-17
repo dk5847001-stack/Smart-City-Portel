@@ -2023,3 +2023,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-259: toast header gap */
 .toast-header { gap: 0.5rem; }
+
+
+/* mini-upgrade-260: toast body line height */
+.toast-body { line-height: 1.45; }
