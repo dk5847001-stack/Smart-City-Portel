@@ -1759,3 +1759,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-193: status chip alignment */
 .status-badge, .priority-badge { display: inline-flex; align-items: center; gap: 0.25rem; }
+
+
+/* mini-upgrade-194: status chip no shrink */
+.status-badge, .priority-badge { flex-shrink: 0; }
