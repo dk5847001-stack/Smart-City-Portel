@@ -2007,3 +2007,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-255: modal header gap */
 .modal-header { gap: 0.75rem; }
+
+
+/* mini-upgrade-256: modal close no shrink */
+.modal-header .btn-close { flex-shrink: 0; }
