@@ -1807,3 +1807,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-205: paragraph measure */
 p { text-wrap: pretty; }
+
+
+/* mini-upgrade-206: ordered list rhythm */
+ol > li + li { margin-top: 0.35rem; }
