@@ -2031,3 +2031,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-261: pagination wrapping */
 .pagination { flex-wrap: wrap; gap: 0.25rem; }
+
+
+/* mini-upgrade-262: pagination min target */
+.page-link { min-width: 38px; min-height: 38px; display: inline-flex; align-items: center; justify-content: center; }
