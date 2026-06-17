@@ -2055,3 +2055,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-267: accordion title wrapping */
 .accordion-button { overflow-wrap: anywhere; }
+
+
+/* mini-upgrade-268: tabs wrapping */
+.nav-tabs { flex-wrap: wrap; }
