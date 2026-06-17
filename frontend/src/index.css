@@ -1923,3 +1923,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-234: filter bar spacing */
 .filter-bar { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: end; }
+
+
+/* mini-upgrade-235: filter item sizing */
+.filter-bar > * { min-width: min(220px, 100%); }
