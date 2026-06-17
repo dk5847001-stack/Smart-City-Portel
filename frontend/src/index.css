@@ -1955,3 +1955,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-242: card grid alignment */
 .card-grid { align-items: stretch; }
+
+
+/* mini-upgrade-243: card body flex */
+.card-body.d-flex { min-height: 0; }
