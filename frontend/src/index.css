@@ -1963,3 +1963,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-244: card action footer */
 .card-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: auto; }
+
+
+/* mini-upgrade-245: metric card numerals */
+.metric-value { font-variant-numeric: tabular-nums; }
