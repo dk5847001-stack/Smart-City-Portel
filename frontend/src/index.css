@@ -2103,3 +2103,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-279: mobile navbar spacing */
 @media (max-width: 991.98px) { .navbar-nav { padding-block: 0.5rem; } }
+
+
+/* mini-upgrade-280: mobile hero actions */
+@media (max-width: 575.98px) { .hero-actions .btn { width: 100%; } }
