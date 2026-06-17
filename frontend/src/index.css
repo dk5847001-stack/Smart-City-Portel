@@ -2071,3 +2071,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-271: avatar no shrink */
 .avatar, .user-avatar { flex-shrink: 0; }
+
+
+/* mini-upgrade-272: uploaded image preview */
+.image-preview img { max-height: 280px; object-fit: contain; }
