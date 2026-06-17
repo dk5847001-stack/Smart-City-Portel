@@ -2099,3 +2099,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-278: error state wrapping */
 .error-state { overflow-wrap: anywhere; }
+
+
+/* mini-upgrade-279: mobile navbar spacing */
+@media (max-width: 991.98px) { .navbar-nav { padding-block: 0.5rem; } }
