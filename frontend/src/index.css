@@ -1859,3 +1859,7 @@ a:hover { text-decoration-thickness: 0.08em; }
 
 /* mini-upgrade-218: icon button square */
 .btn-icon { width: 40px; height: 40px; padding: 0; display: inline-grid; place-items: center; }
+
+
+/* mini-upgrade-219: small icon button square */
+.btn-icon.btn-sm { width: 34px; height: 34px; }
