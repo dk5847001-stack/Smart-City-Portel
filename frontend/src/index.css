@@ -1899,3 +1899,7 @@ a:hover { text-decoration-thickness: 0.08em; }
 
 /* mini-upgrade-228: textarea resize safety */
 textarea.form-control { resize: vertical; min-height: 112px; }
+
+
+/* mini-upgrade-229: select min width */
+.form-select { min-width: 0; }
