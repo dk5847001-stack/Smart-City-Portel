@@ -1735,3 +1735,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-187: quiet empty cards */
 .card:empty { display: none; }
+
+
+/* mini-upgrade-188: dashboard stat numerals */
+.dashboard-card .display-6, .dashboard-card .h3 { font-variant-numeric: tabular-nums; }
