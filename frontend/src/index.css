@@ -1779,3 +1779,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-198: contact line wrapping */
 .contact-info, .contact-link { overflow-wrap: anywhere; }
+
+
+/* mini-upgrade-199: service tile stability */
+.service-card { min-height: 100%; }
