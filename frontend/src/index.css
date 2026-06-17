@@ -1915,3 +1915,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-232: valid field focus */
 .form-control.is-valid:focus, .form-select.is-valid:focus { box-shadow: 0 0 0 0.2rem rgba(22, 163, 74, 0.2); }
+
+
+/* mini-upgrade-233: form section spacing */
+.form-section + .form-section { margin-top: 1.25rem; }
