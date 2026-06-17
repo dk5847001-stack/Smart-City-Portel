@@ -1831,3 +1831,7 @@ dt + dd { margin-top: 0.15rem; }
 
 /* mini-upgrade-211: secondary text contrast */
 .text-secondary { color: #475569 !important; }
+
+
+/* mini-upgrade-212: small text readability */
+small, .small { line-height: 1.45; }
