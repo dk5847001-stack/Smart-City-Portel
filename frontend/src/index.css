@@ -1871,3 +1871,7 @@ a:hover { text-decoration-thickness: 0.08em; }
 
 /* mini-upgrade-221: link button alignment */
 .btn-link { display: inline-flex; align-items: center; gap: 0.25rem; }
+
+
+/* mini-upgrade-222: outline button contrast */
+.btn-outline-secondary { color: #334155; border-color: #94a3b8; }
