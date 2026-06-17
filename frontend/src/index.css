@@ -1883,3 +1883,7 @@ a:hover { text-decoration-thickness: 0.08em; }
 
 /* mini-upgrade-224: danger button contrast */
 .btn-danger { color: #ffffff; }
+
+
+/* mini-upgrade-225: warning button contrast */
+.btn-warning { color: #1f2937; }
