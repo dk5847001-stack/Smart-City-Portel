@@ -1971,3 +1971,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-246: metric label wrapping */
 .metric-label { overflow-wrap: anywhere; }
+
+
+/* mini-upgrade-247: chart container sizing */
+.chart-container { min-width: 0; width: 100%; }
