@@ -1975,3 +1975,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-247: chart container sizing */
 .chart-container { min-width: 0; width: 100%; }
+
+
+/* mini-upgrade-248: chart tooltip wrapping */
+.recharts-tooltip-wrapper { max-width: min(320px, calc(100vw - 2rem)); }
