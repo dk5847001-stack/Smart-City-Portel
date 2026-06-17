@@ -1967,3 +1967,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-245: metric card numerals */
 .metric-value { font-variant-numeric: tabular-nums; }
+
+
+/* mini-upgrade-246: metric label wrapping */
+.metric-label { overflow-wrap: anywhere; }
