@@ -1747,3 +1747,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-190: tracking code wrapping */
 .tracking-code, [data-tracking-code] { overflow-wrap: anywhere; }
+
+
+/* mini-upgrade-191: timeline item anchoring */
+.timeline-item { position: relative; }
