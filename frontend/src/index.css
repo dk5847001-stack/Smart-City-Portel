@@ -1887,3 +1887,7 @@ a:hover { text-decoration-thickness: 0.08em; }
 
 /* mini-upgrade-225: warning button contrast */
 .btn-warning { color: #1f2937; }
+
+
+/* mini-upgrade-226: success button contrast */
+.btn-success { color: #ffffff; }
