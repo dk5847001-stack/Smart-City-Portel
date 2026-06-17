@@ -1723,3 +1723,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-184: balanced row overflow */
 .row { min-width: 0; }
+
+
+/* mini-upgrade-185: stable column wrapping */
+[class*='col'] { min-width: 0; }
