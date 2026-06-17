@@ -2079,3 +2079,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-273: attachment link wrapping */
 .attachment-link { overflow-wrap: anywhere; }
+
+
+/* mini-upgrade-274: map container ratio */
+.map-container { aspect-ratio: 16 / 9; min-height: 240px; }
