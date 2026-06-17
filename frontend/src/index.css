@@ -2035,3 +2035,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-262: pagination min target */
 .page-link { min-width: 38px; min-height: 38px; display: inline-flex; align-items: center; justify-content: center; }
+
+
+/* mini-upgrade-263: breadcrumb wrapping */
+.breadcrumb { row-gap: 0.25rem; }
