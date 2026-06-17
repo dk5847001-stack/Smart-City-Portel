@@ -1775,3 +1775,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-197: profile field wrapping */
 .profile-field, .profile-value { overflow-wrap: anywhere; }
+
+
+/* mini-upgrade-198: contact line wrapping */
+.contact-info, .contact-link { overflow-wrap: anywhere; }
