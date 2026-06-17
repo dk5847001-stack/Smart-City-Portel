@@ -1731,3 +1731,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-186: clean card action spacing */
 .card .btn-toolbar { gap: 0.35rem; }
+
+
+/* mini-upgrade-187: quiet empty cards */
+.card:empty { display: none; }
