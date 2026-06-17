@@ -2043,3 +2043,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-264: badge whitespace */
 .badge { white-space: normal; text-align: inherit; }
+
+
+/* mini-upgrade-265: badge numeric rhythm */
+.badge { font-variant-numeric: tabular-nums; }
