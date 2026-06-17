@@ -2063,3 +2063,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-269: pills wrapping */
 .nav-pills { flex-wrap: wrap; }
+
+
+/* mini-upgrade-270: list group action target */
+.list-group-item-action { min-height: 44px; }
