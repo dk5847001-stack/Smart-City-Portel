@@ -1879,3 +1879,7 @@ a:hover { text-decoration-thickness: 0.08em; }
 
 /* mini-upgrade-223: primary button shadow restraint */
 .btn-primary { box-shadow: none; }
+
+
+/* mini-upgrade-224: danger button contrast */
+.btn-danger { color: #ffffff; }
