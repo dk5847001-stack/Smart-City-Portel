@@ -1763,3 +1763,7 @@ input[type='url'] { overflow-wrap: anywhere; }
 
 /* mini-upgrade-194: status chip no shrink */
 .status-badge, .priority-badge { flex-shrink: 0; }
+
+
+/* mini-upgrade-195: admin action wrap */
+.admin-actions, .table-actions { display: flex; flex-wrap: wrap; gap: 0.35rem; }
