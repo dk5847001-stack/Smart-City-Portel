@@ -2235,3 +2235,7 @@ input[type='number'] { font-variant-numeric: tabular-nums; }
 
 /* mini-upgrade-312: button text balance */
 .btn { text-wrap: balance; }
+
+
+/* mini-upgrade-313: close button focus */
+.btn-close:focus-visible { box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.25); }
