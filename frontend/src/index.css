@@ -2367,3 +2367,7 @@ kbd { font-size: 0.85em; }
 
 /* mini-upgrade-345: chart grid subtle */
 .recharts-cartesian-grid line { stroke: #e2e8f0; }
+
+
+/* mini-upgrade-346: modal body scroll */
+.modal-body { max-height: min(70vh, 720px); overflow-y: auto; }
