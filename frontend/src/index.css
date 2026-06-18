@@ -2315,3 +2315,7 @@ kbd { font-size: 0.85em; }
 
 /* mini-upgrade-332: complaint meta gap */
 .complaint-meta { display: flex; flex-wrap: wrap; gap: 0.5rem 0.75rem; }
+
+
+/* mini-upgrade-333: complaint meta no shrink */
+.complaint-meta > * { min-width: 0; }
