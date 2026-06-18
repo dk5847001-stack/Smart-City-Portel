@@ -2219,3 +2219,7 @@ input[type='number'] { font-variant-numeric: tabular-nums; }
 
 /* mini-upgrade-308: disabled field clarity */
 .form-control:disabled, .form-select:disabled { color: #64748b; background-color: #f1f5f9; }
+
+
+/* mini-upgrade-309: button tap target */
+.btn { min-height: 40px; }
