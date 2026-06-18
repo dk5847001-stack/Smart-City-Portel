@@ -2223,3 +2223,7 @@ input[type='number'] { font-variant-numeric: tabular-nums; }
 
 /* mini-upgrade-309: button tap target */
 .btn { min-height: 40px; }
+
+
+/* mini-upgrade-310: button inline rhythm */
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem; }
