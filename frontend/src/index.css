@@ -2455,3 +2455,7 @@ figcaption { color: #475569; font-size: 0.92rem; }
 
 /* mini-upgrade-367: avatar image fit */
 .avatar img, .user-avatar img { width: 100%; height: 100%; object-fit: cover; }
+
+
+/* mini-upgrade-368: upload dropzone focus */
+.upload-dropzone:focus-within { border-color: #2563eb; }
