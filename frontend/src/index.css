@@ -2335,3 +2335,7 @@ kbd { font-size: 0.85em; }
 
 /* mini-upgrade-337: dashboard toolbar wrap */
 .dashboard-toolbar { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+
+
+/* mini-upgrade-338: dashboard toolbar alignment */
+.dashboard-toolbar { align-items: center; justify-content: space-between; }
