@@ -2263,3 +2263,7 @@ a:focus-visible { border-radius: 4px; }
 
 /* mini-upgrade-319: external link wrapping */
 a[href^='http'] { overflow-wrap: anywhere; }
+
+
+/* mini-upgrade-320: long code wrapping */
+code, kbd, samp { overflow-wrap: anywhere; }
