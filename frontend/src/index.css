@@ -2259,3 +2259,7 @@ input[type='number'] { font-variant-numeric: tabular-nums; }
 
 /* mini-upgrade-318: link focus clarity */
 a:focus-visible { border-radius: 4px; }
+
+
+/* mini-upgrade-319: external link wrapping */
+a[href^='http'] { overflow-wrap: anywhere; }
