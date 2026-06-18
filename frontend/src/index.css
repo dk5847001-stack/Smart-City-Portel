@@ -2371,3 +2371,7 @@ kbd { font-size: 0.85em; }
 
 /* mini-upgrade-346: modal body scroll */
 .modal-body { max-height: min(70vh, 720px); overflow-y: auto; }
+
+
+/* mini-upgrade-347: modal title balance */
+.modal-title { text-wrap: balance; }
