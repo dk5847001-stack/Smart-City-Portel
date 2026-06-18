@@ -2287,3 +2287,7 @@ kbd { font-size: 0.85em; }
 
 /* mini-upgrade-325: table header weight */
 .table thead th { font-weight: 700; }
+
+
+/* mini-upgrade-326: table numeric rhythm */
+.table .numeric, .table [data-numeric] { font-variant-numeric: tabular-nums; }
