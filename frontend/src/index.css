@@ -2467,3 +2467,7 @@ figcaption { color: #475569; font-size: 0.92rem; }
 
 /* mini-upgrade-370: empty state title balance */
 .empty-state h2, .empty-state h3 { text-wrap: balance; }
+
+
+/* mini-upgrade-371: empty state action wrap */
+.empty-state .btn-group, .empty-state .actions { flex-wrap: wrap; gap: 0.5rem; }
