@@ -2339,3 +2339,7 @@ kbd { font-size: 0.85em; }
 
 /* mini-upgrade-338: dashboard toolbar alignment */
 .dashboard-toolbar { align-items: center; justify-content: space-between; }
+
+
+/* mini-upgrade-339: stats grid stable columns */
+.stats-grid { grid-template-columns: repeat(auto-fit, minmax(min(180px, 100%), 1fr)); }
