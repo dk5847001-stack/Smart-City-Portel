@@ -2415,3 +2415,7 @@ button.badge, a.badge { min-height: 32px; display: inline-flex; align-items: cen
 
 /* mini-upgrade-357: breadcrumb link wrap */
 .breadcrumb-item a { overflow-wrap: anywhere; }
+
+
+/* mini-upgrade-358: list group wrapping */
+.list-group-item { overflow-wrap: anywhere; }
