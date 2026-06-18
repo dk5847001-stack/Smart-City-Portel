@@ -2463,3 +2463,7 @@ figcaption { color: #475569; font-size: 0.92rem; }
 
 /* mini-upgrade-369: upload hint contrast */
 .upload-hint { color: #475569; }
+
+
+/* mini-upgrade-370: empty state title balance */
+.empty-state h2, .empty-state h3 { text-wrap: balance; }
