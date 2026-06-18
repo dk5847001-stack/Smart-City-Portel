@@ -2155,3 +2155,7 @@ main:focus { outline: none; } main:focus-visible { scroll-margin-top: 5rem; }
 
 /* mini-upgrade-292: help text contrast */
 .form-text { color: #475569; }
+
+
+/* mini-upgrade-293: error text contrast */
+.invalid-feedback { color: #b91c1c; font-weight: 600; }
