@@ -2507,3 +2507,7 @@ figcaption { color: #475569; font-size: 0.92rem; }
 
 /* mini-upgrade-380: mobile filter buttons */
 @media (max-width: 575.98px) { .filter-bar .btn { width: 100%; } }
+
+
+/* mini-upgrade-381: mobile dashboard toolbar */
+@media (max-width: 575.98px) { .dashboard-toolbar { align-items: stretch; } }
