@@ -2427,3 +2427,7 @@ button.badge, a.badge { min-height: 32px; display: inline-flex; align-items: cen
 
 /* mini-upgrade-360: accordion icon no shrink */
 .accordion-button::after { flex-shrink: 0; }
+
+
+/* mini-upgrade-361: card focus within */
+.card:focus-within { border-color: rgba(37, 99, 235, 0.45); }
