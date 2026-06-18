@@ -2403,3 +2403,7 @@ kbd { font-size: 0.85em; }
 
 /* mini-upgrade-354: badge tap target */
 button.badge, a.badge { min-height: 32px; display: inline-flex; align-items: center; }
+
+
+/* mini-upgrade-355: pagination disabled clarity */
+.page-item.disabled .page-link { color: #64748b; }
