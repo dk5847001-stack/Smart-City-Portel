@@ -2207,3 +2207,7 @@ input[type='file'] { cursor: pointer; }
 
 /* mini-upgrade-305: date input tabular */
 input[type='date'], input[type='time'] { font-variant-numeric: tabular-nums; }
+
+
+/* mini-upgrade-306: number input tabular */
+input[type='number'] { font-variant-numeric: tabular-nums; }
