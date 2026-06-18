@@ -2271,3 +2271,7 @@ code, kbd, samp { overflow-wrap: anywhere; }
 
 /* mini-upgrade-321: pre scroll safety */
 pre { max-width: 100%; overflow-x: auto; }
+
+
+/* mini-upgrade-322: kbd readability */
+kbd { font-size: 0.85em; }
