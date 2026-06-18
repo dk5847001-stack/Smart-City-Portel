@@ -2451,3 +2451,7 @@ img { max-width: 100%; }
 
 /* mini-upgrade-366: figure caption contrast */
 figcaption { color: #475569; font-size: 0.92rem; }
+
+
+/* mini-upgrade-367: avatar image fit */
+.avatar img, .user-avatar img { width: 100%; height: 100%; object-fit: cover; }
