@@ -2391,3 +2391,7 @@ kbd { font-size: 0.85em; }
 
 /* mini-upgrade-351: alert text measure */
 .alert { max-width: 100%; }
+
+
+/* mini-upgrade-352: alert heading balance */
+.alert-heading { text-wrap: balance; }
