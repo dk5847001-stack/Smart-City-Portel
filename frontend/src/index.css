@@ -2307,3 +2307,7 @@ kbd { font-size: 0.85em; }
 
 /* mini-upgrade-330: complaint title balance */
 .complaint-title { text-wrap: balance; }
+
+
+/* mini-upgrade-331: complaint description measure */
+.complaint-description { max-width: 78ch; }
