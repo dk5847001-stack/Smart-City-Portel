@@ -2199,3 +2199,7 @@ legend { font-size: 1rem; font-weight: 700; }
 
 /* mini-upgrade-303: file input cursor */
 input[type='file'] { cursor: pointer; }
+
+
+/* mini-upgrade-304: file button contrast */
+.form-control::file-selector-button { color: #111827; }
