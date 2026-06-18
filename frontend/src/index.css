@@ -2255,3 +2255,7 @@ input[type='number'] { font-variant-numeric: tabular-nums; }
 
 /* mini-upgrade-317: navbar toggler focus */
 .navbar-toggler:focus-visible { box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.28); }
+
+
+/* mini-upgrade-318: link focus clarity */
+a:focus-visible { border-radius: 4px; }
