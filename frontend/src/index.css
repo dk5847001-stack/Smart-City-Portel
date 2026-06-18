@@ -2431,3 +2431,7 @@ button.badge, a.badge { min-height: 32px; display: inline-flex; align-items: cen
 
 /* mini-upgrade-361: card focus within */
 .card:focus-within { border-color: rgba(37, 99, 235, 0.45); }
+
+
+/* mini-upgrade-362: card title balance */
+.card-title { text-wrap: balance; }
