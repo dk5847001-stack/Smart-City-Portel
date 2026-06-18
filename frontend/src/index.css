@@ -2395,3 +2395,7 @@ kbd { font-size: 0.85em; }
 
 /* mini-upgrade-352: alert heading balance */
 .alert-heading { text-wrap: balance; }
+
+
+/* mini-upgrade-353: badge line height */
+.badge { line-height: 1.25; }
