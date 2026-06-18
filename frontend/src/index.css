@@ -2151,3 +2151,7 @@ main:focus { outline: none; } main:focus-visible { scroll-margin-top: 5rem; }
 
 /* mini-upgrade-291: help text measure */
 .form-text { max-width: 72ch; }
+
+
+/* mini-upgrade-292: help text contrast */
+.form-text { color: #475569; }
