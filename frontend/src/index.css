@@ -2187,3 +2187,7 @@ main:focus { outline: none; } main:focus-visible { scroll-margin-top: 5rem; }
 
 /* mini-upgrade-300: radio group rhythm */
 .form-check + .form-check { margin-top: 0.25rem; }
+
+
+/* mini-upgrade-301: fieldset rhythm */
+fieldset { min-width: 0; }
