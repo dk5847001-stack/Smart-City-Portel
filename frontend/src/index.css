@@ -2411,3 +2411,7 @@ button.badge, a.badge { min-height: 32px; display: inline-flex; align-items: cen
 
 /* mini-upgrade-356: pagination active contrast */
 .page-item.active .page-link { color: #ffffff; }
+
+
+/* mini-upgrade-357: breadcrumb link wrap */
+.breadcrumb-item a { overflow-wrap: anywhere; }
