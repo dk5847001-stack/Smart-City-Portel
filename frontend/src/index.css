@@ -2175,3 +2175,7 @@ main:focus { outline: none; } main:focus-visible { scroll-margin-top: 5rem; }
 
 /* mini-upgrade-297: input focus border */
 .form-control:focus, .form-select:focus { border-color: #2563eb; }
+
+
+/* mini-upgrade-298: checkbox target size */
+.form-check-input { width: 1.1em; height: 1.1em; }
