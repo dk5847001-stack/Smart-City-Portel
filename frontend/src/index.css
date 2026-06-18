@@ -2203,3 +2203,7 @@ input[type='file'] { cursor: pointer; }
 
 /* mini-upgrade-304: file button contrast */
 .form-control::file-selector-button { color: #111827; }
+
+
+/* mini-upgrade-305: date input tabular */
+input[type='date'], input[type='time'] { font-variant-numeric: tabular-nums; }
