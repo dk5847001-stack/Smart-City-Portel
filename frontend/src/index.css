@@ -2387,3 +2387,7 @@ kbd { font-size: 0.85em; }
 
 /* mini-upgrade-350: toast text wrapping */
 .toast { overflow-wrap: anywhere; }
+
+
+/* mini-upgrade-351: alert text measure */
+.alert { max-width: 100%; }
