@@ -2303,3 +2303,7 @@ kbd { font-size: 0.85em; }
 
 /* mini-upgrade-329: priority text wrapping */
 .priority-text { overflow-wrap: anywhere; }
+
+
+/* mini-upgrade-330: complaint title balance */
+.complaint-title { text-wrap: balance; }
