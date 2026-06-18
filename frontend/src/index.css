@@ -2183,3 +2183,7 @@ main:focus { outline: none; } main:focus-visible { scroll-margin-top: 5rem; }
 
 /* mini-upgrade-299: checkbox label spacing */
 .form-check-label { padding-left: 0.15rem; }
+
+
+/* mini-upgrade-300: radio group rhythm */
+.form-check + .form-check { margin-top: 0.25rem; }
