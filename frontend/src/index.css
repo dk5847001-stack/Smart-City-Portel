@@ -2459,3 +2459,7 @@ figcaption { color: #475569; font-size: 0.92rem; }
 
 /* mini-upgrade-368: upload dropzone focus */
 .upload-dropzone:focus-within { border-color: #2563eb; }
+
+
+/* mini-upgrade-369: upload hint contrast */
+.upload-hint { color: #475569; }
