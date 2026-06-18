@@ -2383,3 +2383,7 @@ kbd { font-size: 0.85em; }
 
 /* mini-upgrade-349: toast max width */
 .toast { max-width: min(420px, calc(100vw - 2rem)); }
+
+
+/* mini-upgrade-350: toast text wrapping */
+.toast { overflow-wrap: anywhere; }
