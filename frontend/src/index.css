@@ -2515,3 +2515,7 @@ figcaption { color: #475569; font-size: 0.92rem; }
 
 /* mini-upgrade-382: mobile dashboard buttons */
 @media (max-width: 575.98px) { .dashboard-toolbar .btn { width: 100%; } }
+
+
+/* mini-upgrade-383: tablet card grid */
+@media (min-width: 576px) and (max-width: 991.98px) { .card-grid { gap: 1rem; } }
