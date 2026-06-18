@@ -2439,3 +2439,7 @@ button.badge, a.badge { min-height: 32px; display: inline-flex; align-items: cen
 
 /* mini-upgrade-363: card text measure */
 .card-text { max-width: 72ch; }
+
+
+/* mini-upgrade-364: card footer wrap */
+.card-footer { display: flex; flex-wrap: wrap; gap: 0.5rem; }
