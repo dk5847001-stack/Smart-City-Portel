@@ -2503,3 +2503,7 @@ figcaption { color: #475569; font-size: 0.92rem; }
 
 /* mini-upgrade-379: mobile table captions */
 @media (max-width: 575.98px) { .table caption { font-size: 0.9rem; } }
+
+
+/* mini-upgrade-380: mobile filter buttons */
+@media (max-width: 575.98px) { .filter-bar .btn { width: 100%; } }
