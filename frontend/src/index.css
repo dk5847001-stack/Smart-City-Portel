@@ -2311,3 +2311,7 @@ kbd { font-size: 0.85em; }
 
 /* mini-upgrade-331: complaint description measure */
 .complaint-description { max-width: 78ch; }
+
+
+/* mini-upgrade-332: complaint meta gap */
+.complaint-meta { display: flex; flex-wrap: wrap; gap: 0.5rem 0.75rem; }
