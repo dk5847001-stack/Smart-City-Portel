@@ -2495,3 +2495,7 @@ figcaption { color: #475569; font-size: 0.92rem; }
 
 /* mini-upgrade-377: coarse pointer dropdowns */
 @media (pointer: coarse) { .dropdown-item { min-height: 44px; display: flex; align-items: center; } }
+
+
+/* mini-upgrade-378: mobile modal body */
+@media (max-width: 575.98px) { .modal-body { max-height: 68vh; } }
