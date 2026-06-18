@@ -2379,3 +2379,7 @@ kbd { font-size: 0.85em; }
 
 /* mini-upgrade-348: modal footer buttons */
 .modal-footer .btn { flex: 0 1 auto; }
+
+
+/* mini-upgrade-349: toast max width */
+.toast { max-width: min(420px, calc(100vw - 2rem)); }
