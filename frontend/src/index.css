@@ -2375,3 +2375,7 @@ kbd { font-size: 0.85em; }
 
 /* mini-upgrade-347: modal title balance */
 .modal-title { text-wrap: balance; }
+
+
+/* mini-upgrade-348: modal footer buttons */
+.modal-footer .btn { flex: 0 1 auto; }
