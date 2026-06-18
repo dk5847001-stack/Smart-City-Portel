@@ -2159,3 +2159,7 @@ main:focus { outline: none; } main:focus-visible { scroll-margin-top: 5rem; }
 
 /* mini-upgrade-293: error text contrast */
 .invalid-feedback { color: #b91c1c; font-weight: 600; }
+
+
+/* mini-upgrade-294: valid text contrast */
+.valid-feedback { color: #15803d; font-weight: 600; }
