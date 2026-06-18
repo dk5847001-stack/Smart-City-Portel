@@ -2127,3 +2127,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-285: skip link layering */
 .skip-link { position: absolute; left: 1rem; top: 1rem; z-index: 1100; transform: translateY(-150%); }
+
+
+/* mini-upgrade-286: skip link focus reveal */
+.skip-link:focus-visible { transform: translateY(0); }
