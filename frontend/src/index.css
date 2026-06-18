@@ -2135,3 +2135,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-287: main focus scroll margin */
 main:focus { outline: none; } main:focus-visible { scroll-margin-top: 5rem; }
+
+
+/* mini-upgrade-288: target scroll offset */
+:target { scroll-margin-top: 5rem; }
