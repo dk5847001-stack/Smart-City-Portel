@@ -2447,3 +2447,7 @@ button.badge, a.badge { min-height: 32px; display: inline-flex; align-items: cen
 
 /* mini-upgrade-365: image alt border */
 img { max-width: 100%; }
+
+
+/* mini-upgrade-366: figure caption contrast */
+figcaption { color: #475569; font-size: 0.92rem; }
