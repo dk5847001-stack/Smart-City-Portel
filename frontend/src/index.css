@@ -2323,3 +2323,7 @@ kbd { font-size: 0.85em; }
 
 /* mini-upgrade-334: timeline date tabular */
 .timeline-date { font-variant-numeric: tabular-nums; }
+
+
+/* mini-upgrade-335: timeline marker stability */
+.timeline-marker { flex: 0 0 auto; }
