@@ -2119,3 +2119,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-283: print hide controls */
 @media print { .btn, .navbar, .modal, .toast { display: none !important; } }
+
+
+/* mini-upgrade-284: focus ring visibility */
+:focus-visible { outline: 3px solid rgba(37, 99, 235, 0.55); outline-offset: 3px; }
