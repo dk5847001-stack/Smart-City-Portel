@@ -2211,3 +2211,7 @@ input[type='date'], input[type='time'] { font-variant-numeric: tabular-nums; }
 
 /* mini-upgrade-306: number input tabular */
 input[type='number'] { font-variant-numeric: tabular-nums; }
+
+
+/* mini-upgrade-307: readonly field clarity */
+.form-control[readonly] { background-color: #f8fafc; color: #334155; }
