@@ -2131,3 +2131,7 @@ textarea.form-control { resize: vertical; min-height: 112px; }
 
 /* mini-upgrade-286: skip link focus reveal */
 .skip-link:focus-visible { transform: translateY(0); }
+
+
+/* mini-upgrade-287: main focus scroll margin */
+main:focus { outline: none; } main:focus-visible { scroll-margin-top: 5rem; }
