@@ -2347,3 +2347,7 @@ kbd { font-size: 0.85em; }
 
 /* mini-upgrade-340: stat card label measure */
 .stat-card .text-muted { max-width: 24ch; }
+
+
+/* mini-upgrade-341: stat card icon no shrink */
+.stat-card svg { flex-shrink: 0; }
