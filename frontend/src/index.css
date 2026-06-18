@@ -2143,3 +2143,7 @@ main:focus { outline: none; } main:focus-visible { scroll-margin-top: 5rem; }
 
 /* mini-upgrade-289: form label weight */
 .form-label { font-weight: 600; }
+
+
+/* mini-upgrade-290: required mark spacing */
+.required-mark { margin-left: 0.15rem; color: #b91c1c; }
