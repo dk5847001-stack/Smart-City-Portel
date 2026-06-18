@@ -2283,3 +2283,7 @@ kbd { font-size: 0.85em; }
 
 /* mini-upgrade-324: table cell vertical align */
 .table td, .table th { vertical-align: middle; }
+
+
+/* mini-upgrade-325: table header weight */
+.table thead th { font-weight: 700; }
