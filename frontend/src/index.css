@@ -2195,3 +2195,7 @@ fieldset { min-width: 0; }
 
 /* mini-upgrade-302: legend sizing */
 legend { font-size: 1rem; font-weight: 700; }
+
+
+/* mini-upgrade-303: file input cursor */
+input[type='file'] { cursor: pointer; }
