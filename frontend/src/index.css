@@ -2435,3 +2435,7 @@ button.badge, a.badge { min-height: 32px; display: inline-flex; align-items: cen
 
 /* mini-upgrade-362: card title balance */
 .card-title { text-wrap: balance; }
+
+
+/* mini-upgrade-363: card text measure */
+.card-text { max-width: 72ch; }
