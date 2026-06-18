@@ -2355,3 +2355,7 @@ kbd { font-size: 0.85em; }
 
 /* mini-upgrade-342: chart empty state */
 .chart-empty { min-height: 220px; display: grid; place-items: center; color: #64748b; }
+
+
+/* mini-upgrade-343: chart label contrast */
+.recharts-text { fill: #334155; }
