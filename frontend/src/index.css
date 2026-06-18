@@ -2487,3 +2487,7 @@ figcaption { color: #475569; font-size: 0.92rem; }
 
 /* mini-upgrade-375: reduced motion transitions */
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition-duration: 0.01ms !important; } }
+
+
+/* mini-upgrade-376: coarse pointer nav links */
+@media (pointer: coarse) { .nav-link { min-height: 44px; display: flex; align-items: center; } }
