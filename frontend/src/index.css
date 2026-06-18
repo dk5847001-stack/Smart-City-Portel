@@ -2399,3 +2399,7 @@ kbd { font-size: 0.85em; }
 
 /* mini-upgrade-353: badge line height */
 .badge { line-height: 1.25; }
+
+
+/* mini-upgrade-354: badge tap target */
+button.badge, a.badge { min-height: 32px; display: inline-flex; align-items: center; }
