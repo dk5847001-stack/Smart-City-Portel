@@ -2359,3 +2359,7 @@ kbd { font-size: 0.85em; }
 
 /* mini-upgrade-343: chart label contrast */
 .recharts-text { fill: #334155; }
+
+
+/* mini-upgrade-344: chart axis contrast */
+.recharts-cartesian-axis-line, .recharts-cartesian-axis-tick-line { stroke: #94a3b8; }
