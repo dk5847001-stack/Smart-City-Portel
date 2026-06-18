@@ -2319,3 +2319,7 @@ kbd { font-size: 0.85em; }
 
 /* mini-upgrade-333: complaint meta no shrink */
 .complaint-meta > * { min-width: 0; }
+
+
+/* mini-upgrade-334: timeline date tabular */
+.timeline-date { font-variant-numeric: tabular-nums; }
