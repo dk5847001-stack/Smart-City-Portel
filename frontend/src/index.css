@@ -2407,3 +2407,7 @@ button.badge, a.badge { min-height: 32px; display: inline-flex; align-items: cen
 
 /* mini-upgrade-355: pagination disabled clarity */
 .page-item.disabled .page-link { color: #64748b; }
+
+
+/* mini-upgrade-356: pagination active contrast */
+.page-item.active .page-link { color: #ffffff; }
