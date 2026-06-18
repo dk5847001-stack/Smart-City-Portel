@@ -2139,3 +2139,7 @@ main:focus { outline: none; } main:focus-visible { scroll-margin-top: 5rem; }
 
 /* mini-upgrade-288: target scroll offset */
 :target { scroll-margin-top: 5rem; }
+
+
+/* mini-upgrade-289: form label weight */
+.form-label { font-weight: 600; }
