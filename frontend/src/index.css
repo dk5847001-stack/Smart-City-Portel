@@ -2167,3 +2167,7 @@ main:focus { outline: none; } main:focus-visible { scroll-margin-top: 5rem; }
 
 /* mini-upgrade-295: input text color */
 .form-control, .form-select { color: #111827; }
+
+
+/* mini-upgrade-296: input border contrast */
+.form-control, .form-select { border-color: #94a3b8; }
