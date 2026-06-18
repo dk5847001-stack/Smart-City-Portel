@@ -2291,3 +2291,7 @@ kbd { font-size: 0.85em; }
 
 /* mini-upgrade-326: table numeric rhythm */
 .table .numeric, .table [data-numeric] { font-variant-numeric: tabular-nums; }
+
+
+/* mini-upgrade-327: table empty cell clarity */
+.table td:empty::after { content: '-'; color: #94a3b8; }
