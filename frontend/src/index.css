@@ -2327,3 +2327,7 @@ kbd { font-size: 0.85em; }
 
 /* mini-upgrade-335: timeline marker stability */
 .timeline-marker { flex: 0 0 auto; }
+
+
+/* mini-upgrade-336: dashboard heading balance */
+.dashboard-heading { text-wrap: balance; }
