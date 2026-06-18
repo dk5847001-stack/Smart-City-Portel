@@ -2275,3 +2275,7 @@ pre { max-width: 100%; overflow-x: auto; }
 
 /* mini-upgrade-322: kbd readability */
 kbd { font-size: 0.85em; }
+
+
+/* mini-upgrade-323: table caption contrast */
+.table caption { color: #475569; }
