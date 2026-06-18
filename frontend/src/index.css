@@ -2519,3 +2519,7 @@ figcaption { color: #475569; font-size: 0.92rem; }
 
 /* mini-upgrade-383: tablet card grid */
 @media (min-width: 576px) and (max-width: 991.98px) { .card-grid { gap: 1rem; } }
+
+
+/* mini-upgrade-384: print form clarity */
+@media print { .form-control, .form-select { border-color: #64748b !important; } }
