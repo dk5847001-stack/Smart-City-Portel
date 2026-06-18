@@ -2231,3 +2231,7 @@ input[type='number'] { font-variant-numeric: tabular-nums; }
 
 /* mini-upgrade-311: button focus shadow */
 .btn:focus-visible { box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.25); }
+
+
+/* mini-upgrade-312: button text balance */
+.btn { text-wrap: balance; }
